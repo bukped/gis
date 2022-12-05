@@ -1,0 +1,55 @@
+[
+  {
+    "nama_gedung": "Terminal Cicaheum",
+    "nama_komplek": "Cicaheum",
+    "batas": [
+      {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [107.656171, -6.902189],
+            [107.656221, -6.902288],
+            [107.656291, -6.902799],
+            [107.657256, -6.902758],
+            [107.657234, -6.902232],
+            [107.656171, -6.902189]
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "nama_gedung": "Agen Bus Pahala",
+    "nama_komplek": "Cicaheum",
+    "batas": [
+      {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [107.656879, -6.902295],
+            [107.656882, -6.902267],
+            [107.656847, -6.902265],
+            [107.656879, -6.902295]
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "nama_gedung": "Terminal Angkot Cicaheum",
+    "nama_komplek": "Cicaheum",
+    "batas": [
+      {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [107.656165, -6.902499],
+            [107.656882, -6.902267],
+            [107.656847, -6.902265],
+            [107.656879, -6.902295]
+          ]
+        ]
+      }
+    ]
+  }
+]
