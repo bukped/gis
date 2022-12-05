@@ -12,7 +12,7 @@ kumpulan repository geojson
 
 ### Task
 1. Select a place in Bandung City (Public Place, Government Place, Edu Place)
-2. Create 10 poligon type in that place store in bandung folder, rename it to placename.json
-3. Insert it into mongo db provided by lecturer.
+2. Create 10 poligon type in that place store in bandung folder, save it ad geojson format and rename it to placename.json
+3. Insert it into mongo db provided by lecturer using mongo compass https://www.mongodb.com/products/compass
 4. Pull request with subjkect : [class]NPM-Name
 5. Go home
