@@ -1,0 +1,162 @@
+[
+    {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[
+            [107.64209016625445, -6.915157665148345],
+            [107.64218686309778, -6.915092999311208],
+            [107.64222910788799, -6.9151589010738155],
+            [107.64213388947196, -6.915220808781832]  
+        ]]
+        },
+        "properties": {
+          "name": "Mushola Kiara Artha Park",
+          "komplek" : "Taman Asia Afrika"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[
+            [107.64184075107397, -6.916598366986023],
+            [107.64197419096817, -6.916668262572837],
+            [107.64187561979101, -6.9168226984971275],
+            [107.64175894370376, -6.916757462638716]  
+        ]]
+        },
+        "properties": {
+          "name": "MIXUE Kiara Artha Park",
+          "komplek" : "Taman Asia Afrika"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[
+            [107.6427153167301, -6.916946654793718],
+            [107.64284003944405, -6.916821508477988],
+            [107.64261205168737, -6.9166018366734034],
+            [107.64249403449567, -6.916701687506332]  
+        ]]
+        },
+        "properties": {
+          "name": "McDonald's Kiara Artha Park",
+          "komplek" : "Taman Asia Afrika"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[
+            [107.64071837616288, -6.915557190753224],
+            [107.64054787408112, -6.91556706434816],
+            [107.64061039151112, -6.916066385880217],
+            [107.64077663104084, -6.916052280759434]  
+        ]]
+        },
+        "properties": {
+          "name": "Kampung Korea Bandung",
+          "komplek" : "Taman Asia Afrika"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[
+            [107.64290112517122, -6.916677854170215],
+            [107.64265838526555, -6.916589985433916],
+            [107.64285150430652, -6.916065435365026],
+            [107.64309960862997, -6.916154635544757]  
+        ]]
+        },
+        "properties": {
+          "name": "Lolipops Playland and Cafe",
+          "komplek" : "Taman Asia Afrika"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[
+            [107.64158991363846, -6.916222012641674],
+            [107.64161539462302, -6.916297899337653],
+            [107.64153157559483, -6.916325191918321],
+            [107.64151078847583, -6.916246642535574]  
+        ]]
+        },
+        "properties": {
+          "name": "Solaria Kiara Artha Park",
+          "komplek" : "Taman Asia Afrika"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[
+            [107.6416893303409, -6.916503106595938],
+            [107.64171615242991, -6.916586315642243],
+            [107.64164038002843, -6.916615605223045],
+            [107.64161221683496, -6.9165317305095195]  
+        ]]
+        },
+        "properties": {
+          "name": "Omah Bumahai Bandung",
+          "komplek" : "Taman Asia Afrika"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[
+            [107.64180935919131, -6.915801736949139],
+            [107.6416960358652, -6.915840346005779],
+            [107.64175370335658, -6.915869635632851],
+            [107.64172417817593, -6.915769731592526]  
+        ]]
+        },
+        "properties": {
+          "name": "Domikando Coffee",
+          "komplek" : "Taman Asia Afrika"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[
+            [107.64292516573454, -6.917193322630986],
+            [107.64298216267369, -6.9172425823161925],
+            [107.64290571971999, -6.917326456903487],
+            [107.64284939333304, -6.9172752002130204]  
+        ]]
+        },
+        "properties": {
+          "name": "Kampung Ala Durian",
+          "komplek" : "Taman Asia Afrika"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[
+            [107.64062962136371, -6.9154322956862],
+            [107.64069600603403, -6.915482886902788],
+            [107.64069332382515, -6.915417650859344],
+            [107.64062760970704, -6.915424307598872]  
+        ]]
+        },
+        "properties": {
+          "name": "Betta Icon Fish",
+          "komplek" : "Taman Asia Afrika"
+        }
+      }
+]
