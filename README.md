@@ -28,6 +28,16 @@ kumpulan repository geojson
 
 For number 6, to change into GeoJSON standar format :
 ```
+replace : "border":[[[
+with : "border":[[
+
+AND
+
+replace : ]]]}
+with : ]]}
+
+THEN
+
 replace : "border":[
 with : "border":{"type":"Polygon","coordinates": [[
 
