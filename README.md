@@ -36,6 +36,6 @@ kumpulan repository geojson
 2. You might Using https://github.com/pelias/pbf2json to convert pbf to geojson format
 3. Take Data from Source Data Choose your city/residence split into 
 3. Make village border in one city put your geojson work in to osm sub region folder
-4. Pull Request Subject : 8-NPM-NAMA
-5. Description : fill with dataset description
+4. Pull Request Subject : 8-KELAS-NPM-NAMA
+5. Description : fill with dataset description, jumlah desa dalam json tersebut
 6. After Approved you might go home
