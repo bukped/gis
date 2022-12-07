@@ -24,7 +24,18 @@ kumpulan repository geojson
 3. https://www.arrayiterator.com/kodepos-geocoding-json-seluruh-indonesia-sesuai-bps
 4. https://ibnux.github.io/data-indonesia/
 5. https://github.com/superpikar/indonesia-geojson
-6. https://github.com/pararawendy/border-desa-indonesia-geojson
+6. https://github.com/pararawendy/border-desa-indonesia-geojson use string replace 
+
+For number 6, to change into GeoJSON standar format :
+```
+replace : "border":[
+with : "border":{"type":"Polygon","coordinates": [[
+
+AND
+
+replace : ]}
+with : ]]}}
+```
 
 ### Go Lang Tutorial
 1. https://www.youtube.com/watch?v=VkZDZeeuIdY
