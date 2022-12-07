@@ -18,7 +18,24 @@ kumpulan repository geojson
 5. Go home
 
 ## Chapter 2
+### Source Data
+1. http://download.geofabrik.de/asia/indonesia.html
+2. https://openstreetmap.or.id/en/data-openstreetmap-indonesia/
+3. https://www.arrayiterator.com/kodepos-geocoding-json-seluruh-indonesia-sesuai-bps
+4. https://ibnux.github.io/data-indonesia/
+5. https://github.com/superpikar/indonesia-geojson
+6. https://github.com/pararawendy/border-desa-indonesia-geojson
+
+### Go Lang Tutorial
+1. https://www.youtube.com/watch?v=VkZDZeeuIdY
+2. https://www.youtube.com/watch?v=WwV3ba5KoG4&t=211s
+3. https://www.youtube.com/watch?v=3ZuT48xfbJc
+
 ### Task
 1. Install go lang
-2. Using https://github.com/pelias/pbf2json convert pbf to geojson
-3. put in to folder 
+2. You might Using https://github.com/pelias/pbf2json to convert pbf to geojson format
+3. Take Data from Source Data Choose your city/residence split into 
+3. Make village border in one city put your geojson work in to osm sub region folder
+4. Pull Request Subject : 8-NPM-NAMA
+5. Description : fill with dataset description
+6. After Approved you might go home
