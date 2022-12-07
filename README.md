@@ -32,7 +32,7 @@ kumpulan repository geojson
 3. https://www.youtube.com/watch?v=3ZuT48xfbJc
 
 ### Task
-1. Install go lang
+1. Convert to geojson format
 2. You might Using https://github.com/pelias/pbf2json to convert pbf to geojson format
 3. Take Data from Source Data Choose your city/residence split into 
 3. Make village border in one city put your geojson work in to osm sub region folder
