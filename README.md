@@ -16,3 +16,9 @@ kumpulan repository geojson
 3. Insert it into mongo db provided by lecturer using mongo compass https://www.mongodb.com/products/compass
 4. Pull request with subjkect : [class]NPM-Name
 5. Go home
+
+## Chapter 2
+### Task
+1. Install go lang
+2. Using https://github.com/pelias/pbf2json convert pbf to geojson
+3. put in to folder 
