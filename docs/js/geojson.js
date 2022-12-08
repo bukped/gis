@@ -2,7 +2,7 @@ const map = L.map('map').setView([4.694012785431503, 96.7750300832872], 13);
 
 	const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 		maxZoom: 19,
-		attribution: '&copy; <a href="http://www.bukupedia.co.id/">Bukped</a>'
+		attribution: '&copy; <a href="http://www.bukupedia.co.id/">Bukupedia University</a>'
 	}).addTo(map);
 
 
