@@ -1,6 +1,8 @@
 var desa ={
     "type": "Feature",
     "properties": {
+        "name": "Coors Field",
+        "amenity": "Baseball Stadium",
         "popupContent": "Ini desa cuy",
         "style": {
             weight: 2,
