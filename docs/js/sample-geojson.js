@@ -11,8 +11,8 @@ var desa ={
         }
     },
     "geometry": {
-        "type": "LineString",
-        "coordinates": 
+        "type": "Polygon",
+        "coordinates": [
           [
             [
                 96.7906,
@@ -86,7 +86,7 @@ var desa ={
                 96.7906,
                 4.6931
               ]
-          ]
+          ]]
         
       }
 
