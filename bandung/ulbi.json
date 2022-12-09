@@ -13,8 +13,16 @@
     ]]
     },
     "properties": {
-      "name": "Auditorium",
-      "komplek" : "ULBI"
+      "name": "Gedung Auditorium",
+        "amenity": "College",
+        "popupContent": "Auditorium",
+        "style": {
+            "weight": 2,
+            "color": "#999",
+            "opacity": 1,
+            "fillColor": "#B0DE5C",
+            "fillOpacity": 0.8
+        }
     }
   },
 
@@ -23,17 +31,25 @@
     "geometry": {
       "type": "Polygon",
       "coordinates": [[
-        [107.57602997295076, -6.873209332735188],
-        [107.57595889441455, -6.873647385015163],
-        [107.57626734843957, -6.873733930250689],
-        [107.57632367482675,-6.873241287930358],
-        [107.57602997295076, -6.873209332735188]
+        [107.57528248540491, -6.873160933982675],
+        [107.57522360635731, -6.873571663533885],
+        [107.57581549573052, -6.873654732388732],
+        [107.5758805725726,-6.87325477110244],
+        [107.57528248540491, -6.873160933982675]
     
     ]]
     },
     "properties": {
-      "name": "pendidikan",
-      "komplek" : "ULBI"
+      "name": "Gedung Pendidikan",
+        "amenity": "College",
+        "popupContent": "Tempat belajar nya sekolah pokasi",
+        "style": {
+            "weight": 2,
+            "color": "#999",
+            "opacity": 1,
+            "fillColor": "#B0DE5C",
+            "fillOpacity": 0.8
+        }
     }
   }
 ]
