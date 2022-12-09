@@ -12,3 +12,7 @@ const map = L.map('map').setView([-6.87360695863978, 107.5759227360176], 23);
 	L.geoJSON(getGeoJSON("bandung/ulbi.json"), {
 		onEachFeature: onEachFeature
 	}).addTo(map);
+
+	L.geoJSON(getGeoJSON("bandung/a.json"), {
+		onEachFeature: onEachFeature
+	}).addTo(map);
