@@ -15,7 +15,7 @@ https://bukped.github.io/geojson/
 1. Select a place in Bandung City (Public Place, Government Place, Edu Place)
 2. Create 10 poligon type in that place store in bandung folder, save it ad geojson format and rename it to placename.json
 3. Insert it into mongo db provided by lecturer using mongo compass https://www.mongodb.com/products/compass
-4. Pull request with subjkect : [class]NPM-Name
+4. Pull Request Subject : 8-KELAS-NPM-NAMA
 5. Go home
 
 ## Chapter 2
@@ -58,6 +58,6 @@ with : ]]}}
 2. You might Using https://github.com/pelias/pbf2json to convert pbf to geojson format
 3. Take Data from Source Data Choose your city/residence split into 
 3. Make village border in one city put your geojson work in to osm sub region folder
-4. Pull Request Subject : 8-KELAS-NPM-NAMA
+4. Pull Request Subject : 9-KELAS-NPM-NAMA
 5. Description : fill with dataset description, jumlah desa dalam json tersebut
 6. After Approved you might go home
