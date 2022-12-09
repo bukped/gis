@@ -422,7 +422,7 @@
         "properties": {
           "name": "KIARA ARTHA PARK ",
             "amenity": "College",
-            "popupContent": "BOMBOMCAR",
+            "popupContent": "BOMBOMCAR PLACE",
             "style": {
                 "weight": 2,
                 "color": "#999",
