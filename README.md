@@ -1,5 +1,6 @@
 # geojson
-kumpulan repository geojson
+Bahan ajar pengenalan geojson
+https://bukped.github.io/geojson/
 
 ## Chapter 1
 ### Adding your Desktop SSH Key to Github
