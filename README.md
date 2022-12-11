@@ -48,10 +48,21 @@ replace : ]}
 with : ]]}}
 ```
 
-### Go Lang Tutorial
-1. https://www.youtube.com/watch?v=VkZDZeeuIdY
-2. https://www.youtube.com/watch?v=WwV3ba5KoG4&t=211s
-3. https://www.youtube.com/watch?v=3ZuT48xfbJc
+### Mongo basic for Geojson
+Query with current coordinat
+
+```json
+{
+  border: {
+     $geoIntersects: {
+        $geometry: {
+           type: "Point" ,
+           coordinates: [ 107.575902278736,-6.8732786951873255 ]
+        }
+     }
+  }
+}
+```
 
 ### Task
 1. Convert to geojson format
