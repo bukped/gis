@@ -27,7 +27,7 @@ https://bukped.github.io/geojson/
 5. https://github.com/superpikar/indonesia-geojson
 6. https://github.com/pararawendy/border-desa-indonesia-geojson use string replace 
 
-For number 6, to change into GeoJSON standar format :
+For pararawendy/border-desa-indonesia-geojson data, to change into GeoJSON standar format :
 ```
 replace : "border":[[[
 with : "border":[[
