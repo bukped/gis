@@ -18,7 +18,7 @@ https://bukped.github.io/geojson/
 4. Pull Request Subject : 8-KELAS-NPM-NAMA
 5. Go home
 
-## Chapter 2
+## Chapter 2 : Fixing Invalid Geometry Data
 ### Source Data
 1. http://download.geofabrik.de/asia/indonesia.html
 2. https://openstreetmap.or.id/en/data-openstreetmap-indonesia/
