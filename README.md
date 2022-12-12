@@ -65,10 +65,41 @@ Query with current coordinat
 ```
 
 ### Task
-1. Convert to geojson format
-2. You might Using https://github.com/pelias/pbf2json to convert pbf to geojson format
-3. Take Data from Source Data Choose your city/residence split into 
-3. Make village border in one city put your geojson work in to osm sub region folder
-4. Pull Request Subject : 9-KELAS-NPM-NAMA
-5. Description : fill with dataset description, jumlah desa dalam json tersebut
-6. After Approved you might go home
+1. You might Using google colab to download data and mongo db tools it into your google drive.
+```python
+import os
+from google.colab import drive
+drive.mount('/content/drive')
+folder = '/content/drive/My Drive/Download/dl' 
+
+savedir=folder
+os.chdir(savedir)  #change dir
+!pwd
+!ls
+!pip install pygeos
+!pip install pyrosm
+!wget https://fastdl.mongodb.org/tools/db/mongodb-database-tools-ubuntu1804-x86_64-100.6.1.deb
+!sudo apt install ./mongodb-database-tools-ubuntu1804-x86_64-100.6.1.deb
+!curl http://ip-api.com/json
+!wget https://github.com/pararawendy/border-desa-indonesia-geojson/raw/master/indonesia_villages_border.geojson.zip
+!unzip indonesia_villages_border.geojson.zip
+```
+2. Cree free tier database from mongodb.com connect it with your mongo compass. Add query IP Address from step 1. and create db, collection and index with colab.Choose one city/residence, make sure city different from other insert the city data into your mongodb using colab or compass. 
+```python
+import pymongo
+
+myclient = pymongo.MongoClient("mongodb+srv://user:pass@cluster0.wghp85v.mongodb.net/")
+mydb = myclient["location"]
+mycol = mydb["villages"]
+mycol.drop()
+mydb = myclient["location"]
+mycol = mydb["villages"]
+mycol.create_index( [("border" , pymongo.GEOSPHERE )] )
+!mongoimport --uri="mongodb+srv://user:pass@cluster0.wghp85v.mongodb.net/location" --collection=villages desa.json
+```
+3. Make sure you have set index for border field in 2d geosphere.
+4. Solving Edge or geometri invalid format. You might using pygeos, geojson.io or other visualization tools.
+5. Export it and convert to geojson format like in https://leafletjs.com/examples/geojson/ put in in data folder with city name.json (example: ulbi.json)
+6. Pull Request Subject : 9-KELAS-NPM-NAMA , 
+7. Description : please include your screenshoot and mongo access
+8. After Approved you might go home
