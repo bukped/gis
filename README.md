@@ -84,6 +84,22 @@ os.chdir(savedir)  #change dir
 !wget https://github.com/pararawendy/border-desa-indonesia-geojson/raw/master/indonesia_villages_border.geojson.zip
 !unzip indonesia_villages_border.geojson.zip
 ```
+to manipulate the data you might use this script 
+```
+# Read in the file
+with open('indonesia_villages_border.geojson', 'r') as file :
+  filedata = file.read()
+
+# Replace the target string
+filedata = filedata.replace('"border":[[[', '"border":[[')
+filedata = filedata.replace(']]]}', ']]}')
+filedata = filedata.replace('"border":[', '"border":{"type":"Polygon","coordinates": [[')
+filedata = filedata.replace(']}', ']]}}')
+
+# Write the file out again
+with open('village.geojson', 'w') as file:
+  file.write(filedata)
+```
 2. Cree free tier database from mongodb.com connect it with your mongo compass. Add query IP Address from step 1. and create db, collection and index with colab.Choose one city/residence, make sure city different from other insert the city data into your mongodb using colab or compass. 
 ```python
 import pymongo
