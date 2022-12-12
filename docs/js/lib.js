@@ -11,3 +11,13 @@ request.open("GET", path, false);
 request.send(null)
 return JSON.parse(request.responseText);
 }
+
+const apidir = "https://api.github.com/repos/bukped/geojson/contents/"
+
+function getJSONListDir(path){
+  var request = new XMLHttpRequest();
+  let url=apidir+path
+  request.open("GET", url, false);
+  request.send(null)
+  return JSON.parse(request.responseText);
+}
