@@ -133,3 +133,4 @@ mycol.create_index( [("border" , pymongo.GEOSPHERE )] )
 6. Pull Request Subject : 10-KELAS-NPM-NAMA , 
 7. Description : please include your screenshoot of your application and attach your javascript certificate.
 8. After Approved you might go home
+9. Take Javascript Learning from [Google](https://learndigital.withgoogle.com/digitalgarage/course/learn-programming-with-javascript) for next class meeting.
