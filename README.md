@@ -128,7 +128,8 @@ mycol.create_index( [("border" , pymongo.GEOSPHERE )] )
 1. Take course from [mygreatlearning](https://www.mygreatlearning.com/academy/learn-for-free/courses/introduction-to-javascript) or from [LinkedIn](https://www.linkedin.com/learning/javascript-for-web-designers-3)
 2. Finish the course then create folder inside leaflet/class folder with your npm example : leaflet/b/113040087
 3. create index.html try to use leafletjs in [this tutorial](https://leafletjs.com/examples/geojson/)
-4. Put your shape in the map from chapter 2. you might save your shape inside your NPM folder crease data folder.
-4. Pull Request Subject : 10-KELAS-NPM-NAMA , 
-5. Description : please include your screenshoot of your application and attach your javascript certificate.
-6. After Approved you might go home
+4. Put your shape in the map from chapter 2. Save your shape inside your NPM folder create data folder, rename to city.json.
+5. Call your city.json file from javascript using javascript.
+6. Pull Request Subject : 10-KELAS-NPM-NAMA , 
+7. Description : please include your screenshoot of your application and attach your javascript certificate.
+8. After Approved you might go home
