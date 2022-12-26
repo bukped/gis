@@ -130,5 +130,5 @@ mycol.create_index( [("border" , pymongo.GEOSPHERE )] )
 3. create index.html try to use leafletjs in [this tutorial](https://leafletjs.com/examples/geojson/)
 4. Put your shape in the map from chapter 2. you might save your shape inside your NPM folder crease data folder.
 4. Pull Request Subject : 10-KELAS-NPM-NAMA , 
-5. Description : please include your screenshoot of localhost
+5. Description : please include your screenshoot of your application and attach your javascript certificate.
 6. After Approved you might go home
