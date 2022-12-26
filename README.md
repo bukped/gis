@@ -119,3 +119,16 @@ mycol.create_index( [("border" , pymongo.GEOSPHERE )] )
 6. Pull Request Subject : 9-KELAS-NPM-NAMA , 
 7. Description : please include your screenshoot and mongo access
 8. After Approved you might go home
+
+
+## Chapter 3 : Javascript preparation
+
+
+### Task
+1. Take course in [here](https://www.mygreatlearning.com/academy/learn-for-free/courses/introduction-to-javascript)
+2. Finish the course then create folder inside leaflet/class folder with your npm example : leaflet/b/113040087
+3. create index.html try to use leafletjs in [this tutorial](https://leafletjs.com/examples/geojson/)
+4. Put your shape in the map from chapter 2. you might save your shape inside your NPM folder crease data folder.
+4. Pull Request Subject : 10-KELAS-NPM-NAMA , 
+5. Description : please include your screenshoot of localhost
+6. After Approved you might go home
