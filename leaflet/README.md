@@ -121,7 +121,7 @@ L.geoJSON(getGeoJSON("bandung/ulbi.json"), {
 ```
 
 
-4. there is 5 files consist : index.html, lib.js,geojson.js, city.geojson and geojson.css.
+4. there is 5 files consist : index.html, lib.js,geojson.js, city.json and geojson.css.
 
 ![image](https://user-images.githubusercontent.com/11188109/210197036-85d8c121-a1d1-4643-8221-e286b9a79f60.png)
 
