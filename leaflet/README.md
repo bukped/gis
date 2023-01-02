@@ -11,11 +11,17 @@ example folder  : /leaflet/chapter3/
 
 ### Prerequisite
 
-1. To access your work locally. Install Live Server Extension from your VS Code Marketplace. To use live server just right click on your html and Open with Live Server
+1. To access your work locally. Install Live Server Extension from your VS Code Marketplace. 
 ![image](https://user-images.githubusercontent.com/11188109/210195164-f168703a-dfee-4ab5-b67b-6707ced53204.png)
-2. To access your work from internet. Create github pages in your forked repo to access your work.
+
+2. To use live server just right click on your html and Open with Live Server
+![image](https://user-images.githubusercontent.com/11188109/210195420-8ee855c1-fbbe-4f11-b5d9-367483871777.png)
+
+3. To access your work from internet. Create github pages in your forked repo to access your work.
 ![image](https://user-images.githubusercontent.com/11188109/210194917-e66aeb53-504d-440c-a2ff-8f18cded3529.png)
 
+4. Make sure all check has passed, then you might visit your github pages.
+![image](https://user-images.githubusercontent.com/11188109/210195463-3bf352c8-d461-41a9-a56f-28561b8f4bb7.png)
 
 ### Task
 
