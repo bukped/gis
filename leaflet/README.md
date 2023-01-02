@@ -4,13 +4,18 @@
 
 example folder  : /leaflet/chapter3/
 
+### Base Knowledge
+1. Take course from [mygreatlearning](https://www.mygreatlearning.com/academy/learn-for-free/courses/introduction-to-javascript) or from [LinkedIn](https://www.linkedin.com/learning/javascript-for-web-designers-3)
+2. Take Javascript Learning from [Google](https://learndigital.withgoogle.com/digitalgarage/course/learn-programming-with-javascript) for next class meeting.
+3. Finish the course then create folder inside leaflet/class folder with your npm example : leaflet/b/113040087
+
 ### Prerequisite
 
-1. Take course from [mygreatlearning](https://www.mygreatlearning.com/academy/learn-for-free/courses/introduction-to-javascript) or from [LinkedIn](https://www.linkedin.com/learning/javascript-for-web-designers-3)
-2. Finish the course then create folder inside leaflet/class folder with your npm example : leaflet/b/113040087
-3. create github pages in yout forked repo to access your work.
+1. To access your work locally. Install Live Server Extension from your VS Code Marketplace. To use live server just right click on your html and Open with Live Server
+![image](https://user-images.githubusercontent.com/11188109/210195164-f168703a-dfee-4ab5-b67b-6707ced53204.png)
+2. To access your work from internet. Create github pages in your forked repo to access your work.
 ![image](https://user-images.githubusercontent.com/11188109/210194917-e66aeb53-504d-440c-a2ff-8f18cded3529.png)
-4. Take Javascript Learning from [Google](https://learndigital.withgoogle.com/digitalgarage/course/learn-programming-with-javascript) for next class meeting.
+
 
 ### Task
 
