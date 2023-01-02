@@ -51,7 +51,37 @@ example folder  : /leaflet/chapter3/
 </html>
 ```
 
-2. Put your shape in the map from chapter 2. Save your shape inside your NPM folder create data folder, rename to city.json.
+2. Modify your geojson city in the map from chapter 2. Rename border atribute into geometry. Add type and properties object. Save your shape inside your NPM folder create data folder, rename to city.json.
+
+```json
+{
+ "geometry": {
+          "type": "Polygon",
+          "coordinates": [[
+            [107.57602997295076, -6.873209332735188],
+            [107.57595889441455, -6.873647385015163],
+            [107.57626734843957, -6.873733930250689],
+            [107.57632367482675,-6.873241287930358],
+            [107.57602997295076, -6.873209332735188]
+        
+        ]]
+        },
+ "type": "Feature",
+ "properties": {
+          "name": "Desa Sukabelajar",
+            "amenity": "Pemandian Air Panas",
+            "popupContent": "Sukabelajar",
+            "style": {
+                "weight": 2,
+                "color": "#999",
+                "opacity": 1,
+                "fillColor": "#B0DE5C",
+                "fillOpacity": 0.8
+            }
+        }
+}
+```
+
 3. Create lib.js and geojson.js, you may take a look example in leaflet/chapter3/js folder. Call your city.json with your javascript.
 
 lib.js : put your fetch function in here
