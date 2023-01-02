@@ -51,7 +51,7 @@ example folder  : /leaflet/chapter3/
 </html>
 ```
 
-2. Modify your geojson city in the map from chapter 2. Rename border atribute into geometry. Add type and properties object. Save your shape inside your NPM folder create data folder, rename to city.json.
+2. Modify your geojson city in the map from chapter 2. Rename border atribute into geometry. Add type and properties object. Save your shape inside your NPM folder create data folder, rename to city.json. Be aware, if type is Polygon make sure using doble bracket [[, single bracket just for polyline.
 
 ```json
 {
