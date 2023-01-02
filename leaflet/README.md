@@ -8,6 +8,7 @@ example folder  : /leaflet/chapter3/
 1. Take course from [mygreatlearning](https://www.mygreatlearning.com/academy/learn-for-free/courses/introduction-to-javascript) or from [LinkedIn](https://www.linkedin.com/learning/javascript-for-web-designers-3)
 2. Take Javascript Learning from [Google](https://learndigital.withgoogle.com/digitalgarage/course/learn-programming-with-javascript) for next class meeting.
 3. Finish the course then create folder inside leaflet/class folder with your npm example : leaflet/b/113040087
+4. [Leafletjs Geojson Tutorial](https://leafletjs.com/examples/geojson/)
 
 ### Prerequisite
 
@@ -25,7 +26,7 @@ example folder  : /leaflet/chapter3/
 
 ### Task
 
-1. create a clean index.html try to use leafletjs in [this tutorial](https://leafletjs.com/examples/geojson/), take example in leaflet/chapter3/index.html file. please use script src only, keep simple and clean code. Do not put your script in the index.html file.
+1. create a clean index.html try to use leafletjs in, take example in leaflet/chapter3/index.html file. please use script src only, keep simple and clean code. Do not put your script in the index.html file.
 
 ```html
 <html lang="en">
