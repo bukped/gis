@@ -18,7 +18,7 @@ https://bukped.github.io/geojson/
 4. Pull Request Subject : 8-KELAS-NPM-NAMA
 5. Go home
 
-## Chapter 2
+## Chapter 2 : Fixing Invalid Geometry Data
 ### Source Data
 1. http://download.geofabrik.de/asia/indonesia.html
 2. https://openstreetmap.or.id/en/data-openstreetmap-indonesia/
@@ -65,10 +65,72 @@ Query with current coordinat
 ```
 
 ### Task
-1. Convert to geojson format
-2. You might Using https://github.com/pelias/pbf2json to convert pbf to geojson format
-3. Take Data from Source Data Choose your city/residence split into 
-3. Make village border in one city put your geojson work in to osm sub region folder
-4. Pull Request Subject : 9-KELAS-NPM-NAMA
-5. Description : fill with dataset description, jumlah desa dalam json tersebut
-6. After Approved you might go home
+1. You might Using google colab to download data and mongo db tools it into your google drive.
+```python
+import os
+from google.colab import drive
+drive.mount('/content/drive')
+folder = '/content/drive/My Drive/Download/dl' 
+
+savedir=folder
+os.chdir(savedir)  #change dir
+!pwd
+!ls
+!pip install pygeos
+!pip install pyrosm
+!wget https://fastdl.mongodb.org/tools/db/mongodb-database-tools-ubuntu1804-x86_64-100.6.1.deb
+!sudo apt install ./mongodb-database-tools-ubuntu1804-x86_64-100.6.1.deb
+!curl http://ip-api.com/json
+!wget https://github.com/pararawendy/border-desa-indonesia-geojson/raw/master/indonesia_villages_border.geojson.zip
+!unzip indonesia_villages_border.geojson.zip
+```
+to manipulate the data you might use this script 
+```
+# Read in the file
+with open('indonesia_villages_border.geojson', 'r') as file :
+  filedata = file.read()
+
+# Replace the target string
+filedata = filedata.replace('"border":[[[', '"border":[[')
+filedata = filedata.replace(']]]}', ']]}')
+filedata = filedata.replace('"border":[', '"border":{"type":"Polygon","coordinates": [[')
+filedata = filedata.replace(']}', ']]}}')
+
+# Write the file out again
+with open('village.geojson', 'w') as file:
+  file.write(filedata)
+```
+2. Cree free tier database from mongodb.com connect it with your mongo compass. Add query IP Address from step 1. and create db, collection and index with colab.Choose one city/residence, make sure city different from other insert the city data into your mongodb using colab or compass. 
+```python
+import pymongo
+
+myclient = pymongo.MongoClient("mongodb+srv://user:pass@cluster0.wghp85v.mongodb.net/")
+mydb = myclient["location"]
+mycol = mydb["villages"]
+mycol.drop()
+mydb = myclient["location"]
+mycol = mydb["villages"]
+mycol.create_index( [("border" , pymongo.GEOSPHERE )] )
+!mongoimport --uri="mongodb+srv://user:pass@cluster0.wghp85v.mongodb.net/location" --collection=villages desa.json
+```
+3. Make sure you have set index for border field in 2d geosphere.
+4. Solving Edge or geometri invalid format. You might using pygeos, geojson.io or other visualization tools.
+5. Export it and convert to geojson format like in https://leafletjs.com/examples/geojson/ put in in data folder with city name.json (example: ulbi.json)
+6. Pull Request Subject : 9-KELAS-NPM-NAMA , 
+7. Description : please include your screenshoot and mongo access
+8. After Approved you might go home
+
+
+## Chapter 3 : Javascript preparation
+
+
+### Task
+1. Take course from [mygreatlearning](https://www.mygreatlearning.com/academy/learn-for-free/courses/introduction-to-javascript) or from [LinkedIn](https://www.linkedin.com/learning/javascript-for-web-designers-3)
+2. Finish the course then create folder inside leaflet/class folder with your npm example : leaflet/b/113040087
+3. create index.html try to use leafletjs in [this tutorial](https://leafletjs.com/examples/geojson/)
+4. Put your shape in the map from chapter 2. Save your shape inside your NPM folder create data folder, rename to city.json.
+5. Call your city.json file from javascript using javascript.
+6. Pull Request Subject : 10-KELAS-NPM-NAMA , 
+7. Description : please include your screenshoot of your application and attach your javascript certificate.
+8. After Approved you might go home
+9. Take Javascript Learning from [Google](https://learndigital.withgoogle.com/digitalgarage/course/learn-programming-with-javascript) for next class meeting.
