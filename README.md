@@ -123,5 +123,5 @@ mycol.create_index( [("border" , pymongo.GEOSPHERE )] )
 
 ## Chapter 3 : Javascript preparation
 
-(Go Here)[geojson/leaflet/chapter3/]
+[Here](geojson/leaflet/chapter3/)
 
