@@ -2,6 +2,8 @@
 
 [example](https://universitas.bukupedia.co.id/geojson/leaflet/chapter3/)
 
+example folder  : /leaflet/chapter3/
+
 ### Prerequisite
 
 1. Take course from [mygreatlearning](https://www.mygreatlearning.com/academy/learn-for-free/courses/introduction-to-javascript) or from [LinkedIn](https://www.linkedin.com/learning/javascript-for-web-designers-3)
