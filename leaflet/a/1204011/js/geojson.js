@@ -10,6 +10,6 @@ const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 
 
-L.geoJSON(getGeoJSON("ciamis/ciamis.json"), {
+L.geoJSON(getGeoJSON("ciamis/ciamis.geojson"), {
     onEachFeature: onEachFeature
 }).addTo(map);
