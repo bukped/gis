@@ -1,4 +1,4 @@
-const map = L.map('map').setView([-7.6746436, 110.7915398], 23);
+const map = L.map('map').setView([-1.1742562,116.7016594], 23);
 
 const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 10,
@@ -9,6 +9,6 @@ const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 
 
-L.geoJSON(getGeoJSON("sukoharjo/sukoharjo.geojson"), {
+L.geoJSON(getGeoJSON("balikpapan/balikpapan.geojson"), {
     onEachFeature: onEachFeature
 }).addTo(map);
