@@ -119,3 +119,9 @@ mycol.create_index( [("border" , pymongo.GEOSPHERE )] )
 6. Pull Request Subject : 9-KELAS-NPM-NAMA , 
 7. Description : please include your screenshoot and mongo access
 8. After Approved you might go home
+
+
+## Chapter 3 : Javascript preparation
+
+[Here](leaflet/README.md)
+
