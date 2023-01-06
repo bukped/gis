@@ -1,5 +1,5 @@
 
-const map = L.map('map').setView([-7.3286487,108.2938724], 13);
+const map = L.map('map').setView([-0.0352231,109.2491468], 13);
 
 const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
@@ -10,6 +10,6 @@ const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 
 
-L.geoJSON(getGeoJSON("ciamis/ciamis.geojson"), {
+L.geoJSON(getGeoJSON("pontianak/pontianak.json"), {
     onEachFeature: onEachFeature
 }).addTo(map);
