@@ -1643,9 +1643,9 @@
     "properties": {
       "kota_kabuten": "KOTA SIBOLGA",
       "kecamatan": "SIBOLGA KOTA",
-      "name": "PASAR BELAKANG",
+      "name": "PASAR BELAKANG 2",
       "amenity": "Village",
-      "popup_content": "Desa PASAR BELAKANG",
+      "popup_content": "Desa PASAR BELAKANG 2",
       "style": {
         "weight": 2,
         "color": "#999",
