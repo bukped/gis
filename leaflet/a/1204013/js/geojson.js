@@ -1,5 +1,5 @@
 
-const map = L.map('map').setView([7.3262517, 110.4558855], 13);
+const map = L.map('map').setView([-7.3724807,108.4950044], 23);
 
 const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
@@ -10,6 +10,6 @@ const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 
 
-L.geoJSON(getGeoJSON("salatiga/salatiga.geojson"), {
+L.geoJSON(getGeoJSON("banjar/banjar.geojson"), {
     onEachFeature: onEachFeature
 }).addTo(map);
