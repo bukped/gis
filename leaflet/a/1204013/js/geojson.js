@@ -10,6 +10,6 @@ const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 
 
-L.geoJSON(getGeoJSON("bandung/ulbi.json"), {
+L.geoJSON(getGeoJSON("salatiga/salatiga.geojson"), {
     onEachFeature: onEachFeature
 }).addTo(map);
