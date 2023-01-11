@@ -125,3 +125,12 @@ mycol.create_index( [("border" , pymongo.GEOSPHERE )] )
 
 [Here](leaflet/README.md)
 
+## Chapter 4 : Geojson Webservice
+
+1. buat endpoint(RestFull) app services di mongodb.com, pilih bahasa yang disukai
+2. testing endpoint menggunakan postman
+3. buat collection village, masukkan satu doc ke collection tersebut
+4. setting index 2dsphere pada field geometry
+5. masukkan semua data village satu kota yang sudah dibuat pada collection tersebut
+6. hubungkan app service ke collection tersebut
+7. panggil data dari javascript kemaren ke app service tersebut
