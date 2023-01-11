@@ -127,7 +127,7 @@ mycol.create_index( [("border" , pymongo.GEOSPHERE )] )
 
 ## Chapter 4 : Geojson Webservice
 
-1. buat endpoint(RestFull) app services di mongodb.com, pake reactjs
+1. buat endpoint(RestFull) app services di mongodb.com, pilih bahasa yang disukai
 2. testing endpoint menggunakan postman
 3. buat collection village, masukkan satu doc ke collection tersebut
 4. setting index 2dsphere pada field geometry
