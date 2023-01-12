@@ -127,7 +127,37 @@ mycol.create_index( [("border" , pymongo.GEOSPHERE )] )
 
 ## Chapter 4 : Geojson Webservice
 
-1. buat endpoint(RestFull) app services di mongodb.com, pilih bahasa yang disukai
+1. buat Custom HTTPS Endpoints app services di mongodb.com, pilih bahasa yang disukai
+![image](https://user-images.githubusercontent.com/11188109/212017705-4dcc7215-3e4b-4925-a0ee-04ef8634459c.png)
+![image](https://user-images.githubusercontent.com/11188109/212017789-f673b1ba-c699-48ab-99f9-8a7b99dffb80.png)
+![image](https://user-images.githubusercontent.com/11188109/212018078-641ed6a6-cc98-4c11-83b8-978306340e17.png)
+![image](https://user-images.githubusercontent.com/11188109/212018478-47960571-7cef-4bb9-a03e-61eafbdc9517.png)
+
+```js
+exports = async function(payload, response) {
+  // Convert the request body from BSON to a JSON object and then pull out relevant fields
+  const { uuid } = JSON.parse(payload.body.text());
+  // If the request is missing required fields or something else is wrong, respond with an error
+  if (!uuid) {
+    response.setStatusCode(400)
+    response.setBody(`Could not find "someField" in the endpoint request body.`);
+  }
+  // Execute application logic, such as working with MongoDB
+  const cluster = context.services.get('mongodb-atlas');
+  const requests = cluster.db("whatsauth").collection("requests");
+  try {
+    const { _id } = await requests.findOne({ "uuid" : uuid });
+    // Respond with an affirmative result
+    response.setStatusCode(200)
+    response.setBody(`Successfully login use whatsauth for the request with _id: ${_id}.`);
+  } catch (err) {
+    // If the insert fails for some reason, respond with an error
+    response.setStatusCode(500)
+    response.setBody(`No Whatsauth for the request. ${err}`)
+  }
+}
+
+```
 2. testing endpoint menggunakan postman
 3. buat collection village, masukkan satu doc ke collection tersebut
 4. setting index 2dsphere pada field geometry
