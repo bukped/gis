@@ -179,6 +179,15 @@ example : paM8dMldmg6vOu5jP4YcuKT1WHAiJZIEB24QRYqTdRtmRFzIR3lX2EvRHmZrV30S
 ![image](https://user-images.githubusercontent.com/11188109/212024375-dd67594a-ed67-4635-8a59-4bbc5ab4676a.png)
 post : https://ap-southeast-1.aws.data.mongodb-api.com/app/geojson-kybzb/endpoint/geojson
 
+```js
+{
+  "api-key" : "paM8dMldmg6vOu5jP4YcuKT1WHAiJZIEB24QRYqTdRtmRFzIR3lX2EvRHmZrV30S",
+  "long" : 107.575902278736,
+  "lat":-6.8732786951873255
+} 
+```
+![image](https://user-images.githubusercontent.com/11188109/212026791-f2e15ab7-6b60-462e-8b1e-934b7352d969.png)
+
 4. buat collection village, masukkan satu doc ke collection tersebut
 5. setting index 2dsphere pada field geometry
 ![image](https://user-images.githubusercontent.com/11188109/212019979-099671be-a143-467d-b7ef-c3682166cae8.png)
