@@ -175,7 +175,12 @@ exports = async function(payload, response) {
 ![image](https://user-images.githubusercontent.com/11188109/212024889-2580e5cf-9bd2-4113-abb8-ea6e6607d03f.png)
 example : paM8dMldmg6vOu5jP4YcuKT1WHAiJZIEB24QRYqTdRtmRFzIR3lX2EvRHmZrV30S
 
-3. testing endpoint menggunakan postman
+3. Tambahkan akses ke database
+![image](https://user-images.githubusercontent.com/11188109/212027270-ec201127-de43-40b2-826e-64eb519dca44.png)
+![image](https://user-images.githubusercontent.com/11188109/212027517-f162e1ef-351f-4c68-8757-c9c030f88ef4.png)
+
+
+4. testing endpoint menggunakan postman
 ![image](https://user-images.githubusercontent.com/11188109/212024375-dd67594a-ed67-4635-8a59-4bbc5ab4676a.png)
 post : https://ap-southeast-1.aws.data.mongodb-api.com/app/geojson-kybzb/endpoint/geojson
 
@@ -186,7 +191,7 @@ post : https://ap-southeast-1.aws.data.mongodb-api.com/app/geojson-kybzb/endpoin
   "lat":-6.8732786951873255
 } 
 ```
-![image](https://user-images.githubusercontent.com/11188109/212026791-f2e15ab7-6b60-462e-8b1e-934b7352d969.png)
+![image](https://user-images.githubusercontent.com/11188109/212027653-da18a45d-0f7f-4e3e-9c88-e125b7803fe3.png)
 
 4. buat collection village, masukkan satu doc ke collection tersebut
 5. setting index 2dsphere pada field geometry
