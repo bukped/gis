@@ -127,6 +127,15 @@ mycol.create_index( [("border" , pymongo.GEOSPHERE )] )
 
 ## Chapter 4 : Geojson Webservice
 
+### Pre-Req
+
+1. buat collection village, masukkan satu doc ke collection tersebut
+2. setting index 2dsphere pada field geometry
+![image](https://user-images.githubusercontent.com/11188109/212019979-099671be-a143-467d-b7ef-c3682166cae8.png)
+3. masukkan semua data village satu kota yang sudah dibuat pada collection tersebut
+
+### Task
+
 1. buat Custom HTTPS Endpoints app services di mongodb.com, pilih bahasa yang disukai
 ![image](https://user-images.githubusercontent.com/11188109/212020359-149f3284-c87f-42ee-a7c6-c074c5f86150.png)
 ![image](https://user-images.githubusercontent.com/11188109/212020559-a9243082-3c7a-4758-824f-5e5dac1d55be.png)
@@ -193,10 +202,29 @@ post : https://ap-southeast-1.aws.data.mongodb-api.com/app/geojson-kybzb/endpoin
 ```
 ![image](https://user-images.githubusercontent.com/11188109/212027653-da18a45d-0f7f-4e3e-9c88-e125b7803fe3.png)
 
-4. buat collection village, masukkan satu doc ke collection tersebut
-5. setting index 2dsphere pada field geometry
-![image](https://user-images.githubusercontent.com/11188109/212019979-099671be-a143-467d-b7ef-c3682166cae8.png)
 
-5. masukkan semua data village satu kota yang sudah dibuat pada collection tersebut
-6. hubungkan app service ke collection tersebut
-7. panggil data dari javascript kemaren ke app service tersebut
+
+6. Buat script js untuk akses ke collection tersebut
+```js
+var myHeaders = new Headers();
+myHeaders.append("Content-Type", "application/json");
+
+var raw = JSON.stringify({
+  "api-key": "paM8dMldmg6vOu5jP4YcuKT1WHAiJZIEB24QRYqTdRtmRFzIR3lX2EvRHmZrV30S",
+  "long": 107.575902278736,
+  "lat": -6.8732786951873255
+});
+
+var requestOptions = {
+  method: 'POST',
+  headers: myHeaders,
+  body: raw,
+  redirect: 'follow'
+};
+
+fetch("https://ap-southeast-1.aws.data.mongodb-api.com/app/geojson-kybzb/endpoint/geojson", requestOptions)
+  .then(response => response.text())
+  .then(result => console.log(result))
+  .catch(error => console.log('error', error));
+```
+7. Implementasikan ke page html bersama js tersebut
