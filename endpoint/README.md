@@ -60,9 +60,9 @@ exports = async function(payload, response) {
 
 ```
 
-untuk mengedit fungsi yang sudah di buat masuk ke menu function
+untuk Melihat fungsi yang berlaku di HTTP Endpoint bisa dilihat di menu HTTP Endpoint
 ![image](https://user-images.githubusercontent.com/11188109/212018078-641ed6a6-cc98-4c11-83b8-978306340e17.png)
-save
+Bisa langsung mengedit fungsi yang sudah di buat masuk ke menu build kemudian pilih function
 ![image](https://user-images.githubusercontent.com/11188109/212018478-47960571-7cef-4bb9-a03e-61eafbdc9517.png)
 
 2. Buat api-key untuk authentikasi endpoin
