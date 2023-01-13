@@ -9,10 +9,18 @@
 
 ### Task
 
-1. buat Custom HTTPS Endpoints app services di mongodb.com, pilih bahasa yang disukai
+1. buat Custom HTTPS Endpoints app services di mongodb.com, kemudian buat fungsi endpoint untuk ambil data.
+
+Buat App Service Baru
 ![image](https://user-images.githubusercontent.com/11188109/212020359-149f3284-c87f-42ee-a7c6-c074c5f86150.png)
+
+Kemudian klik Add An Endpoint
 ![image](https://user-images.githubusercontent.com/11188109/212020559-a9243082-3c7a-4758-824f-5e5dac1d55be.png)
+
+Isi nama route diawalai tanda / kemudian opsi lainnya dilengkapi
 ![image](https://user-images.githubusercontent.com/11188109/212020787-8f922076-e8ca-467a-beff-d2cff4661e63.png)
+
+Buat function baru
 ![image](https://user-images.githubusercontent.com/11188109/212020874-80103a50-503c-471e-ab09-79c6667551a7.png)
 
 
