@@ -26,11 +26,6 @@ Isi nama route diawalai tanda / kemudian opsi lainnya dilengkapi
 Buat function baru
 ![image](https://user-images.githubusercontent.com/11188109/212020874-80103a50-503c-471e-ab09-79c6667551a7.png)
 
-
-
-![image](https://user-images.githubusercontent.com/11188109/212017789-f673b1ba-c699-48ab-99f9-8a7b99dffb80.png)
-![image](https://user-images.githubusercontent.com/11188109/212018078-641ed6a6-cc98-4c11-83b8-978306340e17.png)
-![image](https://user-images.githubusercontent.com/11188109/212018478-47960571-7cef-4bb9-a03e-61eafbdc9517.png)
 ![image](https://user-images.githubusercontent.com/11188109/212024173-ebc9b604-d79a-406e-be72-f3677545985c.png)
 
 
@@ -64,6 +59,12 @@ exports = async function(payload, response) {
 }
 
 ```
+
+untuk mengedit fungsi yang sudah di buat masuk ke menu function
+![image](https://user-images.githubusercontent.com/11188109/212018078-641ed6a6-cc98-4c11-83b8-978306340e17.png)
+save
+![image](https://user-images.githubusercontent.com/11188109/212018478-47960571-7cef-4bb9-a03e-61eafbdc9517.png)
+
 2. Buat api-key untuk authentikasi endpoin
 ![image](https://user-images.githubusercontent.com/11188109/212024889-2580e5cf-9bd2-4113-abb8-ea6e6607d03f.png)
 example : paM8dMldmg6vOu5jP4YcuKT1WHAiJZIEB24QRYqTdRtmRFzIR3lX2EvRHmZrV30S
