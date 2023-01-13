@@ -11,6 +11,9 @@
 
 1. buat Custom HTTPS Endpoints app services di mongodb.com, kemudian buat fungsi endpoint untuk ambil data.
 
+Klik Create New App
+![image](https://user-images.githubusercontent.com/11188109/212017705-4dcc7215-3e4b-4925-a0ee-04ef8634459c.png)
+
 Buat App Service Baru
 ![image](https://user-images.githubusercontent.com/11188109/212020359-149f3284-c87f-42ee-a7c6-c074c5f86150.png)
 
@@ -24,7 +27,7 @@ Buat function baru
 ![image](https://user-images.githubusercontent.com/11188109/212020874-80103a50-503c-471e-ab09-79c6667551a7.png)
 
 
-![image](https://user-images.githubusercontent.com/11188109/212017705-4dcc7215-3e4b-4925-a0ee-04ef8634459c.png)
+
 ![image](https://user-images.githubusercontent.com/11188109/212017789-f673b1ba-c699-48ab-99f9-8a7b99dffb80.png)
 ![image](https://user-images.githubusercontent.com/11188109/212018078-641ed6a6-cc98-4c11-83b8-978306340e17.png)
 ![image](https://user-images.githubusercontent.com/11188109/212018478-47960571-7cef-4bb9-a03e-61eafbdc9517.png)
