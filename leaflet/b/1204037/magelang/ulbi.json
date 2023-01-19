@@ -1,0 +1,596 @@
+[
+    {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[
+            [107.57602997295076, -6.873209332735188],
+            [107.57595889441455, -6.873647385015163],
+            [107.57626734843957, -6.873733930250689],
+            [107.57632367482675,-6.873241287930358],
+            [107.57602997295076, -6.873209332735188]
+        
+        ]]
+        },
+        "properties": {
+          "name": "Gedung Auditorium",
+            "amenity": "College",
+            "popupContent": "Auditorium",
+            "style": {
+                "weight": 2,
+                "color": "#999",
+                "opacity": 1,
+                "fillColor": "#B0DE5C",
+                "fillOpacity": 0.8
+            }
+        }
+      },
+    
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[
+            [107.57528248540491, -6.873160933982675],
+            [107.57522360635731, -6.873571663533885],
+            [107.57581549573052, -6.873654732388732],
+            [107.5758805725726,-6.87325477110244],
+            [107.57528248540491, -6.873160933982675]
+        
+        ]]
+        },
+        "properties": {
+          "name": "Gedung Pendidikan",
+            "amenity": "College",
+            "popupContent": "Tempat belajar nya sekolah pokasi",
+            "style": {
+                "weight": 2,
+                "color": "#999",
+                "opacity": 1,
+                "fillColor": "#B0DE5C",
+                "fillOpacity": 0.8
+            }
+        }
+      },
+    
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                107.57553670974602,
+                -6.87368007476006
+              ],
+              [
+                107.57550294145955,
+                -6.873867355518158
+              ],
+              [
+                107.57583480220694,
+                -6.873933250582553
+              ],
+              [
+                107.57586274837536,
+                -6.873743657741443
+              ],
+              [
+                107.57553670974602,
+                -6.87368007476006
+              ]
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Gedung Rektorat",
+            "amenity": "College",
+            "popupContent": "Gedung Rektorat ULBI",
+            "style": {
+                "weight": 2,
+                "color": "#999",
+                "opacity": 1,
+                "fillColor": "#B0DE5C",
+                "fillOpacity": 0.8
+            }
+        }
+      },
+    
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                107.57646941835378,
+                -6.873535014514147
+              ],
+              [
+                107.57645814217034,
+                -6.873662825671488
+              ],
+              [
+                107.57661882779638,
+                -6.873697810470446
+              ],
+              [
+                107.5766399706431,
+                -6.873553673079385
+              ],
+              [
+                107.57646941835378,
+                -6.873535014514147
+              ]
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Center of Technology",
+            "amenity": "College",
+            "popupContent": "Gedung CoT (Center of Technology) ULBI",
+            "style": {
+                "weight": 2,
+                "color": "#999",
+                "opacity": 1,
+                "fillColor": "#B0DE5C",
+                "fillOpacity": 0.8
+            }
+        }
+      },
+    
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                107.57665052051698,
+                -6.873465754521916
+              ],
+              [
+                107.57663620722656,
+                -6.873562182358086
+              ],
+              [
+                107.57684783945473,
+                -6.873561167327637
+              ],
+              [
+                107.57696648365624,
+                -6.873237865360849
+              ],
+              [
+                107.57685350054447,
+                -6.873250528256619
+              ],
+              [
+                107.57683404499494,
+                -6.873471696207758
+              ],
+              [
+                107.57665052051698,
+                -6.873465754521916
+              ]
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Kantin",
+            "amenity": "College",
+            "popupContent": "Kantin Karyawan dan Mahasiswa ULBI",
+            "style": {
+                "weight": 2,
+                "color": "#999",
+                "opacity": 1,
+                "fillColor": "#B0DE5C",
+                "fillOpacity": 0.8
+            }
+        }
+      },
+    
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                107.57650854470245,
+                -6.873432459121105
+              ],
+              [
+                107.5768207449479,
+                -6.873470531206394
+              ],
+              [
+                107.57685992628592,
+                -6.873193680867118
+              ],
+              [
+                107.57653855594077,
+                -6.8731622299952875
+              ],
+              [
+                107.57650854470245,
+                -6.873432459121105
+              ]
+            ]
+          ]
+        },
+        "properties": {
+          "name": "GOR ULBI",
+            "amenity": "College",
+            "popupContent": "Gymnasium ULBI",
+            "style": {
+                "weight": 2,
+                "color": "#999",
+                "opacity": 1,
+                "fillColor": "#B0DE5C",
+                "fillOpacity": 0.8
+            }
+        }
+      },
+    
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                107.57553670974602,
+                -6.87368007476006
+              ],
+              [
+                107.57550294145955,
+                -6.873867355518158
+              ],
+              [
+                107.57583480220694,
+                -6.873933250582553
+              ],
+              [
+                107.57586274837536,
+                -6.873743657741443
+              ],
+              [
+                107.57553670974602,
+                -6.87368007476006
+              ]
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Gedung Rektorat",
+            "amenity": "College",
+            "popupContent": "Gedung Rektorat ULBI",
+            "style": {
+                "weight": 2,
+                "color": "#999",
+                "opacity": 1,
+                "fillColor": "#B0DE5C",
+                "fillOpacity": 0.8
+            }
+        }
+      },
+    
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                107.57616976210056,
+                -6.872482942136941
+              ],
+              [
+                107.57609127942436,
+                -6.872952259596772
+              ],
+              [
+                107.57644995897124,
+                -6.873001349926199
+              ],
+              [
+                107.57651585999486,
+                -6.872542937731922
+              ],
+              [
+                107.57616976210056,
+                -6.872482942136941
+              ]
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Gedung Melati",
+            "amenity": "College",
+            "popupContent": "Gedung Tempat Sekolah FLTB ULBI",
+            "style": {
+                "weight": 2,
+                "color": "#999",
+                "opacity": 1,
+                "fillColor": "#B0DE5C",
+                "fillOpacity": 0.8
+            }
+        }
+      },
+    
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                107.57593413564445,
+                -6.872761471216492
+              ],
+              [
+                107.57590781288275,
+                -6.872861895389889
+              ],
+              [
+                107.57601722078141,
+                -6.872891519723055
+              ],
+              [
+                107.57604519024056,
+                -6.872793160924033
+              ],
+              [
+                107.57593413564445,
+                -6.872761471216492
+              ]
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Masjid Nurul Ilmi",
+            "amenity": "College",
+            "popupContent": "Masjid Nurul Ilmi ULBI",
+            "style": {
+                "weight": 2,
+                "color": "#999",
+                "opacity": 1,
+                "fillColor": "#B0DE5C",
+                "fillOpacity": 0.8
+            }
+        }
+      },
+    
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                107.57551176673297,
+                -6.8725539486095215
+              ],
+              [
+                107.57546168543621,
+                -6.873014728649096
+              ],
+              [
+                107.57584245979496,
+                -6.87306008374334
+              ],
+              [
+                107.57588855570037,
+                -6.8725979285661225
+              ],
+              [
+                107.57551176673297,
+                -6.8725539486095215
+              ]
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Gedung Anggrek",
+            "amenity": "College",
+            "popupContent": "Gedung Anggrek ULBI",
+            "style": {
+                "weight": 2,
+                "color": "#999",
+                "opacity": 1,
+                "fillColor": "#B0DE5C",
+                "fillOpacity": 0.8
+            }
+        }
+      },
+    
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                107.57681626402649,
+                -6.872179063151648
+              ],
+              [
+                107.57675084539079,
+                -6.872634923155701
+              ],
+              [
+                107.57706918605857,
+                -6.872687576453501
+              ],
+              [
+                107.57713920012577,
+                -6.872221753792047
+              ],
+              [
+                107.57681626402649,
+                -6.872179063151648
+              ]
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Gedung Rafflesia",
+            "amenity": "College",
+            "popupContent": "Gedung Rafflesia FLTB ULBI",
+            "style": {
+                "weight": 2,
+                "color": "#999",
+                "opacity": 1,
+                "fillColor": "#B0DE5C",
+                "fillOpacity": 0.8
+            }
+        }
+      },
+    
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                107.57502066068412,
+                -6.873738931747013
+              ],
+              [
+                107.57502175701484,
+                -6.873823967611287
+              ],
+              [
+                107.57518600195874,
+                -6.873835975177201
+              ],
+              [
+                107.57516804405844,
+                -6.873920149356323
+              ],
+              [
+                107.57541259015403,
+                -6.87395830710139
+              ],
+              [
+                107.57543145871449,
+                -6.87386405972866
+              ],
+              [
+                107.57519582071808,
+                -6.873825859528225
+              ],
+              [
+                107.57521234147345,
+                -6.873756251215582
+              ],
+              [
+                107.57502066068412,
+                -6.873738931747013
+              ]
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Gedung Gandaria",
+            "amenity": "College",
+            "popupContent": "Asrama Gedung Gandaria ULBI",
+            "style": {
+                "weight": 2,
+                "color": "#999",
+                "opacity": 1,
+                "fillColor": "#B0DE5C",
+                "fillOpacity": 0.8
+            }
+        }
+      },
+    
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                107.57676152949767,
+                -6.872757809292622
+              ],
+              [
+                107.57672375783045,
+                -6.873019187313844
+              ],
+              [
+                107.5769997896154,
+                -6.8730550419712415
+              ],
+              [
+                107.57702681834485,
+                -6.872792706671049
+              ],
+              [
+                107.57676152949767,
+                -6.872757809292622
+              ]
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Lapangan Tenis",
+            "amenity": "College",
+            "popupContent": "Lapangan Tenis ULBI",
+            "style": {
+                "weight": 2,
+                "color": "#999",
+                "opacity": 1,
+                "fillColor": "#B0DE5C",
+                "fillOpacity": 0.8
+            }
+        }
+      },
+    
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                107.57600082224565,
+                -6.872630506555609
+              ],
+              [
+                107.57596723085373,
+                -6.872726586714506
+              ],
+              [
+                107.57606517533435,
+                -6.872766136431778
+              ],
+              [
+                107.57610590646453,
+                -6.872677071405562
+              ],
+              [
+                107.57600082224565,
+                -6.872630506555609
+              ]
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Tempat Wudhu Masjid Nurul Ilmi",
+            "amenity": "College",
+            "popupContent": "Tempat Wudhu Masjid Nurul Ilmi",
+            "style": {
+                "weight": 2,
+                "color": "#999",
+                "opacity": 1,
+                "fillColor": "#B0DE5C",
+                "fillOpacity": 0.8
+            }
+        }
+      }
+    ]
+  
