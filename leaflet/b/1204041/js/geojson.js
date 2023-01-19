@@ -1,5 +1,5 @@
 
-const map = L.map('map').setView([-2.590932244840104, 140.6672877648803], 12);
+const map = L.map('map').setView([-6.966875351200928, 113.86233927271367], 12);
 
 const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
@@ -7,9 +7,6 @@ const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 
-
-
-
-L.geoJSON(getGeoJSON("papua/jayapura-utara.json"), {
+L.geoJSON(getGeoJSON("jawa-timur/kota-mojokerto.json"), {
     onEachFeature: onEachFeature
 }).addTo(map);
