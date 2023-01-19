@@ -731,7 +731,269 @@
                     "fillOpacity": 0.8
                 }
             }
-          }
-    
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [[
+                [107.5768406607454, -6.901966142684913],
+                [107.57918998574053, -6.901952661182008],
+                [107.57909492634843, -6.899741689528668],
+                [107.57656906248087, -6.899755171094554],
+                [107.5768406607454, -6.901966142684913]
+      
+            ]]
+            },
+            "properties": {
+              "name": "BDO-HUsain Sastranegara International Airport",
+                "amenity": "Airport",
+                "popupContent": "Airport",
+                "style": {
+                    "weight": 2,
+                    "color": "#999",
+                    "opacity": 1,
+                    "fillColor": "#B0DE5C",
+                    "fillOpacity": 0.8
+                }
+            }
+          },
+      
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [[
+                [107.58222252365437, -6.906269617873363],
+                [107.58253151402408, -6.905330436667896],
+                [107.58094841521137, -6.904913863762104],
+                [107.58059746318361, -6.905875767917635],
+                [107.58222252365437, -6.906269617873363]
+      
+            ]]
+            },
+            "properties": {
+              "name": "Universitas Nurtanio",
+                "amenity": "Universitas",
+                "popupContent": "Kampus Nurtanio",
+                "style": {
+                    "weight": 2,
+                    "color": "#999",
+                    "opacity": 1,
+                    "fillColor": "#B0DE5C",
+                    "fillOpacity": 0.8
+                }
+            }
+          },
+      
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [[
+                [107.58219915966316, -6.90630782693772],
+                [107.58059182005724, -6.905908907537949],
+                [107.58046508751056, -6.906445914343237],
+                [107.58205388089084, -6.906866313532106],
+                [107.58219915966316, -6.90630782693772]
+      
+            ]]
+            },
+            "properties": {
+              "name": "Pujasera Universitas",
+                "amenity": "Pujasera",
+                "popupContent": "Pujasera Universitas",
+                "style": {
+                    "weight": 2,
+                    "color": "#999",
+                    "opacity": 1,
+                    "fillColor": "#B0DE5C",
+                    "fillOpacity": 0.8
+                }
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [[
+                [107.58014672912162, -6.90570638595247],
+                [107.58023946025281, -6.905378044208476],
+                [107.57985308053969, -6.905292122965719],
+                [107.57977889563557, -6.905645013681948],
+                [107.58014672912162, -6.90570638595247]
+      
+            ]]
+            },
+            "properties": {
+              "name": "Masjid An-Nuur Universitas Nurtanio Bandung",
+                "amenity": "Masjid",
+                "popupContent": "Tempat Ibadah",
+                "style": {
+                    "weight": 2,
+                    "color": "#999",
+                    "opacity": 1,
+                    "fillColor": "#B0DE5C",
+                    "fillOpacity": 0.8
+                }
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [[
+                [107.58000222433867, -6.904263063371573],
+                [107.57992881056816, -6.90481210295664],
+                [107.58053080348589, -6.904933571805913],
+                [107.58069720803252, -6.904437978707264],
+                [107.58000222433867, -6.904263063371573]
+      
+            ]]
+            },
+            "properties": {
+              "name": "Starbuck",
+                "amenity": "Starbuck",
+                "popupContent": "Starbuck",
+                "style": {
+                    "weight": 2,
+                    "color": "#999",
+                    "opacity": 1,
+                    "fillColor": "#B0DE5C",
+                    "fillOpacity": 0.8
+                }
+            }
+          },
+      
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [[
+                [107.57991811861996, -6.904237202705232],
+                [107.57759660201157, -6.903686397875617],
+                [107.57654534920869, -6.905523619382606],
+                [107.57961251184668, -6.906049403906053],
+                [107.57991811861996, -6.904237202705232]
+      
+            ]]
+            },
+            "properties": {
+              "name": "Kawasan Parkir",
+                "amenity": "Parkir",
+                "popupContent": "Parkir Motor & Mobil",
+                "style": {
+                    "weight": 2,
+                    "color": "#999",
+                    "opacity": 1,
+                    "fillColor": "#B0DE5C",
+                    "fillOpacity": 0.8
+                }
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [[
+                [107.58019439935958, -6.8956314717889455],
+                [107.57977098007575, -6.895161072636938],
+                [107.57873763539527, -6.895886688153681],
+                [107.57959959607967, -6.896297035747153],
+                [107.58019439935958, -6.8956314717889455]
+      
+            ]]
+            },
+            "properties": {
+              "name": "SMP Angkasa",
+                "amenity": "SMP",
+                "popupContent": "SMP Angkasa",
+                "style": {
+                    "weight": 2,
+                    "color": "#999",
+                    "opacity": 1,
+                    "fillColor": "#B0DE5C",
+                    "fillOpacity": 0.8
+                }
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [[
+                [107.5773650151429,  -6.895495037099252],
+                [107.5762302899006,  -6.898831662985586],
+                [107.58083403231166, -6.900086914870315],
+                [107.58183907466929, -6.898027012591584],
+                [107.5773650151429,  -6.895495037099252]
+      
+            ]]
+            },
+            "properties": {
+              "name": "Dirgantara Indonesia",
+                "amenity": "Dirgantara",
+                "popupContent": "Dirgantara Indonesia",
+                "style": {
+                    "weight": 2,
+                    "color": "#999",
+                    "opacity": 1,
+                    "fillColor": "#B0DE5C",
+                    "fillOpacity": 0.8
+                }
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [[
+                [107.57404369855766, -6.8938510731298095],
+                [107.57305847997401, -6.8937508779519305],
+                [107.57306737367628, -6.894084862056374],
+                [107.57387957826342, -6.89427570986031],
+                [107.57404369855766, -6.8938510731298095]
+      
+            ]]
+            },
+            "properties": {
+              "name": "OYO 617 Sukaraja Residence",
+                "amenity": "Hotel",
+                "popupContent": "Penginapan Sukaraja",
+                "style": {
+                    "weight": 2,
+                    "color": "#999",
+                    "opacity": 1,
+                    "fillColor": "#B0DE5C",
+                    "fillOpacity": 0.8
+                }
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [[
+                [107.58385141368302, -6.906953873496022],
+                [107.58308972942882, -6.906850290399433],
+                [107.58305321032105, -6.907539117567097],
+                [107.58388271577593, -6.907435534598719],
+                [107.58385141368302, -6.906953873496022]
+      
+            ]]
+            },
+            "properties": {
+              "name": "Bakso Boedjangan",
+                "amenity": "Bakso Boedjangan",
+                "popupContent": "Tempat Makan Bakso",
+                "style": {
+                    "weight": 2,
+                    "color": "#999",
+                    "opacity": 1,
+                    "fillColor": "#B0DE5C",
+                    "fillOpacity": 0.8
+                }
+            }
+          }   
     
     ]
