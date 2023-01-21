@@ -1,33 +1,19 @@
-/* html {
-    height: 100%;
-    margin: 0;
-}
-
-.leaflet-container {
-    height: 80%;
-    width: 80%;
-    max-width: 100%;
-    max-height: 100%;
-}
-
-body {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.logo {
-    width: 60px;
-    height: 60px;
-  } */
-
-/* ukuran peta */
 #map {
     height: 100%;
+    width: 100%;
 }
-.jumbotron{
+
+.jumbotron {
     height: 100%;
     border-radius: 0;
 }
-body{
+
+body {
     background-color: #ebe7e1;
+}
+
+.box {
+    margin-bottom: 20px;
+    padding: 50px 15px;
+    background: none
 }
