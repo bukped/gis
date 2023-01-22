@@ -16,7 +16,7 @@ function panggil(long, lat) {
     myHeaders.append("Content-Type", "application/json");
 
     var raw = JSON.stringify({
-        "api-key": "nO5P25KMyNcb7zPTv2ptVVpHuBmG6KOQFM1rvv5tpIkyqjEcaFQ2XDE0J3iOJs5I",
+        "api-key": "SurMnJnIUTwMr4i7GSwfcGADRFrlb8kOKweh9I9r4znOTtkGclXQJdzDW8BJ79TA",
         "long": long,
         "lat": lat
     });
@@ -28,19 +28,18 @@ function panggil(long, lat) {
         redirect: 'follow'
     };
 
-    fetch("https://asia-south1.gcp.data.mongodb-api.com/app/myapp-dbkec/endpoint/binjai", requestOptions)
+    fetch("https://asia-south1.gcp.data.mongodb-api.com/app/geojson-zbqin/endpoint/binjai", requestOptions)
         .then(response => response.text())
         .then(result => hasil(result))
         .catch(error => console.log('error', error));
 
-    fetch("https://asia-south1.gcp.data.mongodb-api.com/app/myapp-dbkec/endpoint/binjai2", requestOptions)
+    fetch("https://asia-south1.gcp.data.mongodb-api.com/app/geojson-zbqin/endpoint/binjai2", requestOptions)
         .then(response => response.text())
         .then(result => geo(JSON.parse(result)))
         .catch(error => console.log('error', error));
 }
 
-function onEachFeature(feature, layer) {
-    // does this feature have a property named popupContent?
+function onEachFeature(feature, layer) { // does this feature have a property named popupContent?
     if (feature.properties && feature.properties.popupContent) {
         layer.bindPopup(feature.properties.popupContent);
     }
