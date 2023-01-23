@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ## Chapter 4 : Geojson Webservice
 
 ### Pre-Req
@@ -237,5 +237,3 @@ fetch("https://ap-southeast-1.aws.data.mongodb-api.com/app/geojson-kybzb/endpoin
 8. Buat index.html yang berisi form dan script untuk akses ke endpoint. Balasan langsung innerHTML ke div yang ada di html tersebut
 9. Pull request dengan menyertakan skrinsut hasil 2dsphere index serta skrinsutan hasil testing aplikasi yang berhasil terhubung ke endpoint
 10. Judul pull request adalah : 11-3A-NPM-NAMA
-
->>>>>>> 7a63c38 (crodsz)
