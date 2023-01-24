@@ -119,7 +119,9 @@ mycol = mydb["villages"]
 mycol.create_index( [("border" , pymongo.GEOSPHERE )] )
 !mongoimport --uri="mongodb+srv://user:pass@dbname.host.mongodb.net/location" --collection=villages village.geojson --jsonArray
 ```
+
 ![image](https://user-images.githubusercontent.com/11188109/214292740-a6ca1f4c-2997-4d52-9be3-cfc58dd29fd7.png)
+
 4. Solving Edge or geometri invalid format. You might using pygeos, geojson.io or other visualization tools.
 5. Export it and convert to geojson format like in https://leafletjs.com/examples/geojson/ put in in data folder with city name.json (example: ulbi.json)
 6. Pull Request Subject : 9-KELAS-NPM-NAMA , 
