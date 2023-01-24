@@ -124,6 +124,49 @@ mycol.create_index( [("border" , pymongo.GEOSPHERE )] )
 
 4. Solving Edge or geometri invalid format. You might using pygeos, geojson.io or other visualization tools.
 5. Export it and convert to geojson format like in https://leafletjs.com/examples/geojson/ put in in data folder with city name.json (example: ulbi.json)
+
+```json
+{
+"type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ALUE BULOH"
+      },
+      "province": "ACEH",
+      "district": "ACEH TIMUR",
+      "sub_district": "BIREM BAYEUN",
+      "village": "ALUE BULOH",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              97.9666,
+              4.4451
+            ],
+            [
+              97.9665,
+              4.4451
+            ],
+             [
+              97.9665,
+              4.4451
+            ],
+            [
+              97.9666,
+              4.4451
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
+
+```
+
 6. Pull Request Subject : 9-KELAS-NPM-NAMA , 
 7. Description : please include your screenshoot of indexes and mongo compass access
 8. After Approved you are done
