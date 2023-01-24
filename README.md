@@ -126,9 +126,6 @@ mycol.create_index( [("border" , pymongo.GEOSPHERE )] )
 5. Export it and convert to geojson format like in https://leafletjs.com/examples/geojson/ put in in data folder with city name.json (example: ulbi.json)
 
 ```json
-{
-"type": "FeatureCollection",
-  "features": [
     {
       "type": "Feature",
       "properties": {
@@ -162,8 +159,7 @@ mycol.create_index( [("border" , pymongo.GEOSPHERE )] )
         ]
       }
     }
-  ]
-}
+
 
 ```
 
