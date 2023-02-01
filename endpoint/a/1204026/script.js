@@ -16,7 +16,7 @@ function panggil(long, lat) {
     myHeaders.append("Content-Type", "application/json");
 
     var raw = JSON.stringify({
-        "api-key": "e5hbqzGJXhI5uo0fyl9IXhk6mIngiMWkv6MPKihE5Yo6wVPkSojlavLD30to4qXJ",
+        "api-key": "8NezVmricO3RNcEhgmyMKj6I5KGXPvvHbFtGvYfAe3ljydGY4ATTClVBY0TKsPs5",
         "long": long,
         "lat": lat
     });
@@ -28,12 +28,12 @@ function panggil(long, lat) {
         redirect: 'follow'
     };
 
-    fetch("https://asia-south1.gcp.data.mongodb-api.com/app/endpoint-skqgf/endpoint/geojson", requestOptions)
+    fetch("https://asia-south1.gcp.data.mongodb-api.com/app/haryadiendpoint-fshsu/endpoint/haryadiendpoint", requestOptions)
         .then(response => response.text())
         .then(result => hasil(result))
         .catch(error => console.log('error', error));
 
-    fetch("https://asia-south1.gcp.data.mongodb-api.com/app/endpoint-skqgf/endpoint/coord", requestOptions)
+    fetch("https://asia-south1.gcp.data.mongodb-api.com/app/haryadiendpoint-fshsu/endpoint/haryadiendpoint", requestOptions)
         .then(response => response.text())
         .then(result => geo(JSON.parse(result)))
         .catch(error => console.log('error', error));
