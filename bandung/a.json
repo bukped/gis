@@ -1501,5 +1501,274 @@
                     "fillOpacity": 0.8
                 }
             }
-          }   
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [[
+                [107.59818970232897, -6.897968912665945],
+                [107.59816479170024, -6.8985047358450515],
+                [107.59865470071105, -6.8985047358450515],
+                [107.59865470071105, -6.897977156104105],
+                [107.59818970232897, -6.897968912665945]
+            
+            ]]
+            },
+            "properties": {
+              "name": "RSUD Hasan Sadikin",
+                "amenity": "College",
+                "popupContent": "RSUD Hasan Sadikin",
+                "style": {
+                    "weight": 2,
+                    "color": "#999",
+                    "opacity": 1,
+                    "fillColor": "#B0DE5C",
+                    "fillOpacity": 0.8
+                }
+            }
+          },
+        
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [[
+                [107.59864726832006, -6.895232369302988],
+                [107.59852008959132, -6.895808425131307],
+                [107.59924606817344, -6.895937314239106],
+                [107.599367947789, -6.895390192886765],
+                [107.59864726832006, -6.895232369302988]
+            
+            ]]
+            },
+            "properties": {
+              "name": "Rumah Sakit Pendidikan Universitas Padjadjaran",
+                "amenity": "College",
+                "popupContent": "Rumah Sakit Pendidikan Universitas Padjadjaran",
+                "style": {
+                    "weight": 2,
+                    "color": "#999",
+                    "opacity": 1,
+                    "fillColor": "#B0DE5C",
+                    "fillOpacity": 0.8
+                }
+            }
+          }, 
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [[
+                [107.60302360632483, -6.898955640824028],
+                [107.6029837767071, -6.899074264508812],
+                [107.60303157224763, -6.899287787065461],
+                [107.6032028396063, -6.899402456546994],
+                [107.6033143625366, -6.899058448019062],
+                [107.60302360632483, -6.898955640824028]
+            
+            ]]
+            },
+            "properties": {
+              "name": "Taman DR Slamet",
+                "amenity": "College",
+                "popupContent": "Taman DR Slamet",
+                "style": {
+                    "weight": 2,
+                    "color": "#999",
+                    "opacity": 1,
+                    "fillColor": "#B0DE5C",
+                    "fillOpacity": 0.8
+                }
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [[
+                [107.61042660922891, -6.89366992557764],
+                [107.6104322150681, -6.894643854337289],
+                [107.61053592310253, -6.894632723734091],
+                [107.61051910558382, -6.893672708235044],
+                [107.61042660922891, -6.89366992557764]
+            
+            ]]
+            },
+            "properties": {
+              "name": "Taman Ganesha",
+                "amenity": "College",
+                "popupContent": "Taman Ganesha",
+                "style": {
+                    "weight": 2,
+                    "color": "#999",
+                    "opacity": 1,
+                    "fillColor": "#B0DE5C",
+                    "fillOpacity": 0.8
+                }
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [[
+                [107.61032736319817, -6.896733736600282],
+                [107.61057664189639, -6.896863924833596],
+                [107.6108022922802, -6.8967431195373194],
+                [107.61070659761401, -6.896653981628603],
+                [107.61051993394562, -6.896635215750749],
+                [107.61032736319817, -6.896733736600282]
+            
+            ]]
+            },
+            "properties": {
+              "name": "Taman Kota RTH Tirtawengi",
+                "amenity": "College",
+                "popupContent": "Taman Kota RTH Tirtawengi",
+                "style": {
+                    "weight": 2,
+                    "color": "#999",
+                    "opacity": 1,
+                    "fillColor": "#B0DE5C",
+                    "fillOpacity": 0.8
+                }
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [[
+                [107.6054144201122, -6.888452102676041],
+                [107.60532492147837, -6.889229562212975],
+                [107.60569410334432, -6.890817797019935],
+                [107.60673452496462, -6.892206109799943],
+                [107.60786444522, -6.893716589485976],
+                [107.60832312571978, -6.893694376584023],
+                [107.60799869317134, -6.889096283525475],
+                [107.6054144201122, -6.888452102676041]
+            
+            ]]
+            },
+            "properties": {
+              "name": "Kebun Binatang Bandung",
+                "amenity": "College",
+                "popupContent": "Kebun Binatang Bandung",
+                "style": {
+                    "weight": 2,
+                    "color": "#999",
+                    "opacity": 1,
+                    "fillColor": "#B0DE5C",
+                    "fillOpacity": 0.8
+                }
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [[
+                [107.60357173986324, -6.900059600645349],
+                [107.60356488333582, -6.900158980894844],
+                [107.6037047564962, -6.900154896775263],
+                [107.60370887041165, -6.900024204934979],
+                [107.60363207730472, -6.900026927681793],
+                [107.603629334694, -6.900059600645349],
+                [107.60357173986324, -6.900059600645349]
+            
+            ]]
+            },
+            "properties": {
+              "name": "Bakso Semar",
+                "amenity": "College",
+                "popupContent": "Bakso Semar",
+                "style": {
+                    "weight": 2,
+                    "color": "#999",
+                    "opacity": 1,
+                    "fillColor": "#B0DE5C",
+                    "fillOpacity": 0.8
+                }
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [[
+                [107.59917328045589, -6.899831418053111],
+                [107.59917568521672, -6.900013651999089],
+                [107.59927428040766, -6.900016039342987],
+                [107.5992734788212, -6.8998306222705565],
+                [107.59917328045589, -6.899831418053111]
+            
+            ]]
+            },
+            "properties": {
+              "name": "Kantor Pos Pasteur",
+                "amenity": "College",
+                "popupContent": "Kantor Pos Pasteur",
+                "style": {
+                    "weight": 2,
+                    "color": "#999",
+                    "opacity": 1,
+                    "fillColor": "#B0DE5C",
+                    "fillOpacity": 0.8
+                }
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [[
+                [107.60301559841179, -6.900616905940524],
+                [107.60310483969585, -6.900623333139805],
+                [107.60312164944906, -6.900511139264864],
+                [107.60303053079042, -6.900499525308945],
+                [107.60301559841179, -6.900616905940524]
+            
+            ]]
+            },
+            "properties": {
+              "name": "Warung Manado",
+                "amenity": "College",
+                "popupContent": "Warung Manado",
+                "style": {
+                    "weight": 2,
+                    "color": "#999",
+                    "opacity": 1,
+                    "fillColor": "#B0DE5C",
+                    "fillOpacity": 0.8
+                }
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [[
+                [107.60796691833445, -6.905598743146527],
+                [107.60807317959569, -6.905361265287212],
+                [107.60814869421245, -6.905006092496123],
+                [107.608120066622, -6.904975461127293],
+                [107.60785868995771, -6.9055445971549005],
+                [107.60796691833445, -6.905598743146527]
+            
+            ]]
+            },
+            "properties": {
+              "name": "Taman Djuanda",
+                "amenity": "College",
+                "popupContent": "Taman Djuanda",
+                "style": {
+                    "weight": 2,
+                    "color": "#999",
+                    "opacity": 1,
+                    "fillColor": "#B0DE5C",
+                    "fillOpacity": 0.8
+                }
+            }
+          } 
     ]
