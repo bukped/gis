@@ -1,0 +1,422 @@
+[
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        107.58172112454645,
+                        -6.888615872303575
+                    ],
+                    [
+                        107.58175331105582,
+                        -6.888485392798799
+                    ],
+                    [
+                        107.58163529385939,
+                        -6.888429473000414
+                    ],
+                    [
+                        107.58158164967944,
+                        -6.888554626825226
+                    ],
+                    [
+                        107.58172112454645,
+                        -6.888615872303575
+                    ]
+                ]
+            ]
+        },
+        "properties": {
+            "name": "CIRCLE K SURYA SUMANTRI",
+            "amenity": "nama",
+            "popupContent": "CIRCLE K SURYA SUMANTRI",
+            "style": {
+                "weight": 2,
+                "color": "#999",
+                "opacity": 1,
+                "fillColor": "#B0DE5C",
+                "fillOpacity": 0.8
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        107.58245970077894,
+                        -6.888032418454216
+                    ],
+                    [
+                        107.58245701857089,
+                        -6.8882161550643985
+                    ],
+                    [
+                        107.58265550203845,
+                        -6.8882161550643985
+                    ],
+                    [
+                        107.58265818424638,
+                        -6.88802975560418
+                    ],
+                    [
+                        107.58245970077894,
+                        -6.888032418454216
+                    ]
+                ]
+            ]
+        },
+        "properties": {
+            "name": "ARIANDRI BOUTIQUE",
+            "amenity": "nama",
+            "popupContent": "ARIANDRI BOUTIQUE",
+            "style": {
+                "weight": 2,
+                "color": "#999",
+                "opacity": 1,
+                "fillColor": "#B0DE5C",
+                "fillOpacity": 0.8
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        107.58095676636361,
+                        -6.883099354051083
+                    ],
+                    [
+                        107.58095944857155,
+                        -6.8832564638039315
+                    ],
+                    [
+                        107.58111233448523,
+                        -6.883267115311156
+                    ],
+                    [
+                        107.58110428785903,
+                        -6.883099354051083
+                    ],
+                    [
+                        107.58095676636361,
+                        -6.883099354051083
+                    ]
+                ]
+            ]
+        },
+        "properties": {
+            "name": "THE MAJESTI HOTEL",
+            "amenity": "nama",
+            "popupContent": "THE MAJESTI HOTEL",
+            "style": {
+                "weight": 2,
+                "color": "#999",
+                "opacity": 1,
+                "fillColor": "#B0DE5C",
+                "fillOpacity": 0.8
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        107.58083933366987,
+                        -6.882500209073811
+                    ],
+                    [
+                        107.58083665146188,
+                        -6.882659981905192
+                    ],
+                    [
+                        107.58105391039209,
+                        -6.8826466675051705
+                    ],
+                    [
+                        107.58103245271911,
+                        -6.882484231787018
+                    ],
+                    [
+                        107.58083933366987,
+                        -6.882500209073811
+                    ]
+                ]
+            ]
+        },
+        "properties": {
+            "name": "GARDEN PERMATA HOTEL",
+            "amenity": "nama",
+            "popupContent": "GARDEN PERMATA HOTEL",
+            "style": {
+                "weight": 2,
+                "color": "#999",
+                "opacity": 1,
+                "fillColor": "#B0DE5C",
+                "fillOpacity": 0.8
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        107.58152893466831,
+                        -6.881327479197225
+                    ],
+                    [
+                        107.58152625246038,
+                        -6.881447309122379
+                    ],
+                    [
+                        107.5816576807012,
+                        -6.881449972009364
+                    ],
+                    [
+                        107.58165499849088,
+                        -6.881332804972487
+                    ],
+                    [
+                        107.58152893466831,
+                        -6.881327479197225
+                    ]
+                ]
+            ]
+        },
+        "properties": {
+            "name": "BANK MANDIRI CABANG SETRASART MALL",
+            "amenity": "nama",
+            "popupContent": "BANK MANDIRI CABANG SETRASART MALL",
+            "style": {
+                "weight": 2,
+                "color": "#999",
+                "opacity": 1,
+                "fillColor": "#B0DE5C",
+                "fillOpacity": 0.8
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        107.58149138374307,
+                        -6.881191671911552
+                    ],
+                    [
+                        107.58148065490656,
+                        -6.881276884331243
+                    ],
+                    [
+                        107.58156916780388,
+                        -6.881282210105951
+                    ],
+                    [
+                        107.58157185001181,
+                        -6.881178357470361
+                    ],
+                    [
+                        107.58149138374307,
+                        -6.881191671911552
+                    ]
+                ]
+            ]
+        },
+        "properties": {
+            "name": "HERO SETRASARI MALL",
+            "amenity": "nama",
+            "popupContent": "HERO SETRASARI MALL",
+            "style": {
+                "weight": 2,
+                "color": "#999",
+                "opacity": 1,
+                "fillColor": "#B0DE5C",
+                "fillOpacity": 0.8
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        107.58056927635658,
+                        -6.880225680175599
+                    ],
+                    [
+                        107.58058268740098,
+                        -6.880342847486759
+                    ],
+                    [
+                        107.58074898436143,
+                        -6.880321544340774
+                    ],
+                    [
+                        107.58067388250856,
+                        -6.880183073874477
+                    ],
+                    [
+                        107.58056927635658,
+                        -6.880225680175599
+                    ]
+                ]
+            ]
+        },
+        "properties": {
+            "name": "OLD BEN'S GARAGE & COFFE",
+            "amenity": "nama",
+            "popupContent": "OLD BEN'S GARAGE & COFFE",
+            "style": {
+                "weight": 2,
+                "color": "#999",
+                "opacity": 1,
+                "fillColor": "#B0DE5C",
+                "fillOpacity": 0.8
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        107.57850608704427,
+                        -6.882064850799679
+                    ],
+                    [
+                        107.578519498091,
+                        -6.882179354772973
+                    ],
+                    [
+                        107.5786348330771,
+                        -6.88216337747653
+                    ],
+                    [
+                        107.57860801098832,
+                        -6.882054199265397
+                    ],
+                    [
+                        107.57850608704427,
+                        -6.882064850799679
+                    ]
+                ]
+            ]
+        },
+        "properties": {
+            "name": "SDN SUKAWARNA",
+            "amenity": "nama",
+            "popupContent": "SDN SUKAWARNA",
+            "style": {
+                "weight": 2,
+                "color": "#999",
+                "opacity": 1,
+                "fillColor": "#B0DE5C",
+                "fillOpacity": 0.8
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        107.57795272203037,
+                        -6.882067178349303
+                    ],
+                    [
+                        107.57795003982238,
+                        -6.882202985384481
+                    ],
+                    [
+                        107.57813779445337,
+                        -6.882192333853382
+                    ],
+                    [
+                        107.57807073922675,
+                        -6.882045875281861
+                    ],
+                    [
+                        107.57795272203037,
+                        -6.882067178349303
+                    ]
+                ]
+            ]
+        },
+        "properties": {
+            "name": "PEMAKAMAN CIBOGO",
+            "amenity": "nama",
+            "popupContent": "PEMAKAMAN CIBOGO",
+            "style": {
+                "weight": 2,
+                "color": "#999",
+                "opacity": 1,
+                "fillColor": "#B0DE5C",
+                "fillOpacity": 0.8
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        107.58187410616318,
+                        -6.880800397023904
+                    ],
+                    [
+                        107.58186605953466,
+                        -6.8809255528619815
+                    ],
+                    [
+                        107.5819840767333,
+                        -6.8809308786417915
+                    ],
+                    [
+                        107.5819840767333,
+                        -6.8807897454613
+                    ],
+                    [
+                        107.58187410616318,
+                        -6.880800397023904
+                    ]
+                ]
+            ]
+        },
+        "properties": {
+            "name": "KANTIN TONG TONG",
+            "amenity": "nama",
+            "popupContent": "KANTIN TONG TONG",
+            "style": {
+                "weight": 2,
+                "color": "#999",
+                "opacity": 1,
+                "fillColor": "#B0DE5C",
+                "fillOpacity": 0.8
+            }
+        }
+    }
+]
