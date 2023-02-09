@@ -4,8 +4,8 @@ myHeaders.append("Content-Type", "application/json");
 
 var raw = JSON.stringify({
   "api-key": "Sa9Jtl0xGx9HnXnRV7ispcHOz9JdNEYD2rKVGNGICDRmvZqwX8HArSKO6EkAPlEm",
-  "long": document.getElementsByName("long")[0].value,
-  "lat": document.getElementsByName("lat")[0].value
+  "long": parseFloat(document.getElementsByName("long")[0].value),
+  "lat": parseFloat(document.getElementsByName("lat")[0].value)
 });
 
 var requestOptions = {
