@@ -1,10 +1,11 @@
+function cari(long, lat) {
 var myHeaders = new Headers();
 myHeaders.append("Content-Type", "application/json");
 
 var raw = JSON.stringify({
   "api-key": "Sa9Jtl0xGx9HnXnRV7ispcHOz9JdNEYD2rKVGNGICDRmvZqwX8HArSKO6EkAPlEm",
-  "long": 107.575902278736,
-  "lat": -6.8732786951873255
+  "long": long,
+  "lat": lat
 });
 
 var requestOptions = {
@@ -18,3 +19,5 @@ fetch("https://ap-southeast-1.aws.data.mongodb-api.com/app/application-0-mfpjl/e
   .then(response => response.text())
   .then(result => document.getElementById("result").innerHTML = result)
   .catch(error => console.log('error', error));
+  
+}
