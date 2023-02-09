@@ -15,6 +15,6 @@ var requestOptions = {
 };
 
 fetch("https://ap-southeast-1.aws.data.mongodb-api.com/app/application-0-mfpjl/endpoint/geojson", requestOptions)
-  .then(response => $('#result').html(response.text()))
-  .then(result => console.log(result))
+  .then(response => response.text())
+  .then(result => document.getElementById("result").innerHTML = result)
   .catch(error => console.log('error', error));
