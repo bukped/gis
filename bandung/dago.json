@@ -1,0 +1,122 @@
+[
+    {
+        "nama_gedung": "Sheraton Bandung Hotel & Towers",
+        "nama_komplek": "Dago",
+        "batas": [
+            {
+                "type": "Polygon",
+                "coordinates": [[
+                    [-6.878364265583057, 107.6125341186761]
+                ]]
+            }
+        ]
+    },
+    {
+        "nama_gedung": "Villa Haroki",
+        "nama_komplek": "Dago",
+        "batas": [
+            {
+                "type": "Polygon",
+                "coordinates": [[
+                    [-6.873626016494704, 107.62145124883979]
+                ]]
+            }
+        ]
+    },
+    {
+        "nama_gedung": "Hotel Dago 22",
+        "nama_komplek": "Dago",
+        "batas": [
+            {
+                "type": "Polygon",
+                "coordinates": [[
+                    [-6.873230956640154, 107.61801242972693]
+                ]]
+            }
+        ]
+    },
+    {
+        "nama_gedung": "The Kartipah",
+        "nama_komplek": "Dago",
+        "batas": [
+            {
+                "type": "Polygon",
+                "coordinates": [[
+                    [-6.8763496522235705, 107.61787832291033]
+                ]]
+            }
+        ]
+    },
+    {
+        "nama_gedung": "Bukit Dago",
+        "nama_komplek": "Dago",
+        "batas": [
+            {
+                "type": "Polygon",
+                "coordinates": [[
+                    [-6.877007987183338, 107.61712048837927]
+                ]]
+            }
+        ]
+    },
+    {
+        "nama_gedung": "Sky City Home",
+        "nama_komplek": "Dago",
+        "batas": [
+            {
+                "type": "Polygon",
+                "coordinates": [[
+                    [-6.876551183451957, 107.61538829519245]
+                ]]
+            }
+        ]
+    },
+    {
+        "nama_gedung": "Sekolah Menengah Pertama Darul Hikam",
+        "nama_komplek": "Dago",
+        "batas": [
+            {
+                "type": "Polygon",
+                "coordinates": [[
+                    [-6.87874562880793, 107.61615064058151]
+                ]]
+            }
+        ]
+    },
+    {
+        "nama_gedung": "Borma Dago",
+        "nama_komplek": "Dago",
+        "batas": [
+            {
+                "type": "Polygon",
+                "coordinates": [[
+                    [-6.8769297163597525, 107.61792786275461]
+                ]]
+            }
+        ]
+    },
+    {
+        "nama_gedung": "Urban Gym",
+        "nama_komplek": "Dago",
+        "batas": [
+            {
+                "type": "Polygon",
+                "coordinates": [[
+                    [-6.877494695469953, 107.61555572457002]
+                ]]
+            }
+        ]
+    },
+    {
+        "nama_gedung": "Dago Asri",
+        "nama_komplek": "Dago",
+        "batas": [
+            {
+                "type": "Polygon",
+                "coordinates": [[
+                    [-6.878559233247129, 107.6165860472126]
+                ]]
+            }
+        ]
+    }
+]
