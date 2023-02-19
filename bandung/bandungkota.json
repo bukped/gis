@@ -1,0 +1,347 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Gedung Sate",
+                "type": "pemerintah"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            107.618790,
+                            -6.903642
+                        ],
+                        [
+                            107.618995,
+                            -6.903988
+                        ],
+                        [
+                            107.619315,
+                            -6.903851
+                        ],
+                        [
+                            107.619119,
+                            -6.903505
+                        ],
+                        [
+                            107.618790,
+                            -6.903642
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Alun-alun Bandung",
+                "type": "tempat umum"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            107.610572,
+                            -6.921703
+                        ],
+                        [
+                            107.610768,
+                            -6.922091
+                        ],
+                        [
+                            107.611185,
+                            -6.921963
+                        ],
+                        [
+                            107.610988,
+                            -6.921574
+                        ],
+                        [
+                            107.610572,
+                            -6.921703
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bandung Institute of Technology (ITB)",
+                "type": "edukasi"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            107.609039,
+                            -6.890409
+                        ],
+                        [
+                            107.609111,
+                            -6.890683
+                        ],
+                        [
+                            107.609609,
+                            -6.890554
+                        ],
+                        [
+                            107.609536,
+                            -6.890279
+                        ],
+                        [
+                            107.609039,
+                            -6.890409
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Monumen Perjuangan Rakyat Jawa Barat",
+                "type": "tempat umum"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            107.602327,
+                            -6.916052
+                        ],
+                        [
+                            107.602401,
+                            -6.916325
+                        ],
+                        [
+                            107.602898,
+                            -6.916197
+                        ],
+                        [
+                            107.602825,
+                            -6.915924
+                        ],
+                        [
+                            107.602327,
+                            -6.916052
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Gedung Merdeka",
+                "type": "tempat umum"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            107.609439,
+                            -6.921120
+                        ],
+                        [
+                            107.609661,
+                            -6.921531
+                        ],
+                        [
+                            107.610158,
+                            -6.921402
+                        ],
+                        [
+                            107.609935,
+                            -6.920991
+                        ],
+                        [
+                            107.609439,
+                            -6.921120
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Gedung Merah ITB",
+                "type": "edukasi"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            107.610396,
+                            -6.891012
+                        ],
+                        [
+                            107.610525,
+                            -6.891378
+                        ],
+                        [
+                            107.610925,
+                            -6.891242
+                        ],
+                        [
+                            107.610795,
+                            -6.890876
+                        ],
+                        [
+                            107.610396,
+                            -6.891012
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Gedung DPRD Jawa Barat",
+                "type": "pemerintah"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            107.617660,
+                            -6.924021
+                        ],
+                        [
+                            107.617876,
+                            -6.924434
+                        ],
+                        [
+                            107.618361,
+                            -6.924296
+                        ],
+                        [
+                            107.618146,
+                            -6.923883
+                        ],
+                        [
+                            107.617660,
+                            -6.924021
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Stasiun Kereta Api Bandung",
+                "type": "tempat umum"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            107.593900,
+                            -6.922300
+                        ],
+                        [
+                            107.594100,
+                            -6.922800
+                        ],
+                        [
+                            107.594500,
+                            -6.922600
+                        ],
+                        [
+                            107.594300,
+                            -6.922100
+                        ],
+                        [
+                            107.593900,
+                            -6.922300
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Universitas Pendidikan Indonesia",
+                "address": "Jl. Dr. Setiabudhi No.229, Isola, Kec. Sukasari, Kota Bandung, Jawa Barat 40154",
+                "type": "universitas"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            107.594175,
+                            -6.860696
+                        ],
+                        [
+                            107.593994,
+                            -6.860452
+                        ],
+                        [
+                            107.594332,
+                            -6.860241
+                        ],
+                        [
+                            107.594514,
+                            -6.860485
+                        ],
+                        [
+                            107.594175,
+                            -6.860696
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Politeknik Negeri Bandung",
+                "address": "Jl. Gegerkalong Hilir, Ds. Ciwaruga, Kec. Parongpong, Kab. Bandung Barat, Jawa Barat 40559",
+                "type": "politeknik"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            107.618029,
+                            -6.860662
+                        ],
+                        [
+                            107.617824,
+                            -6.860499
+                        ],
+                        [
+                            107.617655,
+                            -6.860694
+                        ],
+                        [
+                            107.617886,
+                            -6.860853
+                        ],
+                        [
+                            107.618029,
+                            -6.860662
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}
