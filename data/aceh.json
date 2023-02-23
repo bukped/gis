@@ -1,0 +1,33 @@
+{
+    "type": "Feature",
+    "properties": {
+      "name": "ALUE BULOH"
+    },
+    "province": "ACEH",
+    "district": "ACEH TIMUR",
+    "sub_district": "BIREM BAYEUN",
+    "village": "ALUE BULOH",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            97.9666,
+            4.4451
+          ],
+          [
+            97.9665,
+            4.4451
+          ],
+           [
+            97.9665,
+            4.4451
+          ],
+          [
+            97.9666,
+            4.4451
+          ]
+        ]
+      ]
+    }
+  }
