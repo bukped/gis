@@ -1,0 +1,26 @@
+{
+  "geometry": {
+           "type": "Polygon",
+           "coordinates": [[
+             [107.57602997295076, -6.873209332735188],
+             [107.57595889441455, -6.873647385015163],
+             [107.57626734843957, -6.873733930250689],
+             [107.57632367482675,-6.873241287930358],
+             [107.57602997295076, -6.873209332735188]
+         
+         ]]
+         },
+  "type": "Feature",
+  "properties": {
+           "name": "Desa Sukabelajar",
+             "amenity": "Pemandian Air Panas",
+             "popupContent": "Sukabelajar",
+             "style": {
+                 "weight": 2,
+                 "color": "#999",
+                 "opacity": 1,
+                 "fillColor": "#B0DE5C",
+                 "fillOpacity": 0.8
+             }
+         }
+ }
