@@ -31,10 +31,6 @@ Software Pendukung :
 4. Buatlah tampilan HTML untuk menampilkan data geosjon tersebut menggunakan Javascript ES6 pada github pages.
 5. Tampilkan data tersebut dalam bentuk tabel tampilan HTML di github pages per kategori type data geospasial dengan kolom : No. Nama, Longitude, Latitude, Type.
 6. Kumpulkan URL github pages ke Ketua Kelas
-7. Create 10 poligon type in that place store in bandung folder, save it ad geojson format and rename it to placename.json
-8. Insert it into mongo db provided by lecturer using mongo compass https://www.mongodb.com/products/compass
-9. Pull Request Subject : 8-KELAS-NPM-NAMA
-10. Go home
 
 ## Chapter 2 : Fixing Invalid Geometry Data
 ### Source Data
