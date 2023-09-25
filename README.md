@@ -28,7 +28,7 @@ Software Pendukung :
   },
   ```
 3. Simpan file tersebut dalam repository dengan nama data.json
-4. Buatlah tampilan HTML untuk menampilkan data geosjon tersebut menggunakan Javascript ES6 pada github pages. Contoh pemanggilan Javascript ES5 Sebagai berikut:
+4. Buatlah tampilan HTML untuk menampilkan data geosjon tersebut menggunakan Javascript ES6 pada github pages. Contoh pemanggilan Javascript ES6 Sebagai berikut:
   ```html
   <script src="./app.js" type="module"></script>
   ```
