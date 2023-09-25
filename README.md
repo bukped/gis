@@ -28,12 +28,13 @@ Software Pendukung :
   },
   ```
 3. Simpan file tersebut dalam repository dengan nama data.json
-4. Buatlah tampilan HTML untuk menampilkan data geosjon tersebut menggunakan Javascript ES6 pada github pages. Contoh pemanggilan Javascript ES6 Sebagai berikut:
+4. Buatlah tampilan HTML untuk menampilkan data geosjon tersebut menggunakan Javascript ES6(file js terpisah dari html) pada github pages. Contoh pemanggilan Javascript ES6 Sebagai berikut:
   ```html
   <script src="./app.js" type="module"></script>
   ```
 5. Tampilkan data tersebut dalam bentuk tabel tampilan HTML di github pages per kategori type data geospasial(1 kategori 1 tabel) dengan kolom : No. Nama, Type, Koordinat.
-6. Kumpulkan URL github pages ke Ketua Kelas
+6. Pastikan minimal ada 3 file dalam repo tersebut yaitu : File index.html,data.json,app.js
+7. Kumpulkan URL github pages ke Ketua Kelas
 
 ## Chapter 2 : Fixing Invalid Geometry Data
 ### Source Data
