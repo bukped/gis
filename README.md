@@ -1,22 +1,40 @@
 # geojson
-Bahan ajar pengenalan geojson
-https://bukped.github.io/geojson/
+Bahan ajar Sistem Informasi Geografis menggunakan teknik belajar Pomodoro
+Pre-Requisite:
+1. Web Service(Javascript ES6 Frontend+ Golang Backend)
+2. Git
+3. Github Pages
+4. MongoDB
 
-## Chapter 1
-### Adding your Desktop SSH Key to Github
-1. Make sure you read this section https://github.com/awangga/nopanel/blob/master/git.md
-2. Fork this repo
-3. Clone into your desktop using git clone ssh
-4. Set upstream first
-5. Working in your task
-6. Pull request after fetch upstream
+Software Pendukung :
+1. VSCode
+2. MongoCompass
+3. Git Bash
+4. Pomokit
+
+## Chapter 1: Pengenalan GIS dan Data Geospasial
+### Buat Repositori Praktikum
+1. Buat repositori masing-masing untuk mengerjakan Praktikum GIS
+2. Aktifkan github pages dari repo tersebut dan coba akses alamat github pages tersebut
+3. Boleh menggunakan repo pribadi atau organisasi
+4. Kumpulkan link URL github pages pada repo ketua kelas
 
 ### Task
-1. Select a place in Bandung City (Public Place, Government Place, Edu Place)
-2. Create 10 poligon type in that place store in bandung folder, save it ad geojson format and rename it to placename.json
-3. Insert it into mongo db provided by lecturer using mongo compass https://www.mongodb.com/products/compass
-4. Pull Request Subject : 8-KELAS-NPM-NAMA
-5. Go home
+1. Buatlah geojson sebanyak masing-masing 50 dokumen untuk type point, polyline,polygone boleh menggunakan geojson.io
+2. Isi properties dari geojson dengan nama data geospasial
+  ```json
+  "properties": {
+  "name" : "Gang Senggol Dong"
+  },
+  ```
+3. Simpan file tersebut dalam repository dengan nama data.json
+4. Buatlah tampilan HTML untuk menampilkan data geosjon tersebut menggunakan Javascript ES6 pada github pages.
+5. Tampilkan data tersebut dalam bentuk tabel tampilan HTML di github pages per kategori type data geospasial dengan kolom : No. Nama, Longitude, Latitude, Type.
+6. Kumpulkan URL github pages ke Ketua Kelas
+7. Create 10 poligon type in that place store in bandung folder, save it ad geojson format and rename it to placename.json
+8. Insert it into mongo db provided by lecturer using mongo compass https://www.mongodb.com/products/compass
+9. Pull Request Subject : 8-KELAS-NPM-NAMA
+10. Go home
 
 ## Chapter 2 : Fixing Invalid Geometry Data
 ### Source Data
@@ -65,7 +83,8 @@ Query with current coordinat
 ```
 
 ### Task
-1. You might Using google colab to download data and mongo db tools it into your google drive.
+1. Insert it into mongo db provided by lecturer using mongo compass https://www.mongodb.com/products/compass
+2. You might Using google colab to download data and mongo db tools it into your google drive.
 ```python
 import os
 from google.colab import drive
