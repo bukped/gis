@@ -24,11 +24,14 @@ Software Pendukung :
 2. Isi properties dari geojson dengan nama data geospasial
   ```json
   "properties": {
-  "name" : "Gang Senggol Dong"
+  "name": "Gang Senggol Dong"
   },
   ```
 3. Simpan file tersebut dalam repository dengan nama data.json
-4. Buatlah tampilan HTML untuk menampilkan data geosjon tersebut menggunakan Javascript ES6 pada github pages.
+4. Buatlah tampilan HTML untuk menampilkan data geosjon tersebut menggunakan Javascript ES6 pada github pages. Contoh pemanggilan Javascript ES5 Sebagai berikut:
+  ```html
+  <script src="./app.js" type="module"></script>
+  ```
 5. Tampilkan data tersebut dalam bentuk tabel tampilan HTML di github pages per kategori type data geospasial dengan kolom : No. Nama, Longitude, Latitude, Type.
 6. Kumpulkan URL github pages ke Ketua Kelas
 
