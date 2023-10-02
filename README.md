@@ -2,8 +2,8 @@
 Bahan ajar Sistem Informasi Geografis menggunakan teknik belajar Pomodoro
 Pre-Requisite:
 1. Web Service(Javascript ES6 Frontend+ Golang Backend)
-2. Git
-3. Github Pages
+2. [Sintaks HTML5](https://www.tutorialspoint.com/html5/index.htm)
+3. Git dan Github Pages
 4. Arsitektur Serverless Micro-Frontend
 5. MongoDB
 
@@ -41,7 +41,7 @@ Software Pendukung :
 ### Syarat Pembelajaran
 Sebelum memulai pembelajaran, Peserta harus dahulu memahami :
 1. [Javascript ES6 Modules](https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/)
-2. HTML dan CSS dasar menggunakan Bulma atau Tailwind
+2. [HTML5 Event](https://www.tutorialspoint.com/html5/html5_events.htm) dan CSS dasar menggunakan Bulma atau Tailwind
 3. Memahami cara memanggil ES6 module dan CSS dengan import dari CDN
 4. Memahami konsep Serverless Micro-Frontend
 
