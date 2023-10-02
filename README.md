@@ -53,8 +53,16 @@ Sebelum memulai pembelajaran, Peserta harus dahulu memahami :
 2. Buatlah pemetaan dari data Chapter1 ke dalam satu halaman yang kemaren di buat
 3. Peta ditaruh diatas data dengan ukuran yang proporsional
 4. Peta langsung zoom ke lokasi dimana data berkumpul
-5. Gunakan selalu ES6 module dalam membangun aplikasi
-6. Kumpulkan URL github page ke group kelas lampirkan NPM dan NAMA
+5. Gunakan selalu ES6 module dalam membangun aplikasi task ini, Contoh :
+   ```js
+   <script type="module" src="./main.js"></script>
+   ```
+   atau
+   ```js
+   <script src="https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js"></script>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v8.1.0/ol.css">
+   ```
+7. Kumpulkan URL github page ke group kelas lampirkan NPM dan NAMA
 
 ## Chapter 3 : Fixing Invalid Geometry Data
 ### Source Data
