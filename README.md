@@ -1,7 +1,7 @@
 # Sistem Informasi Geografis
 Bahan ajar Sistem Informasi Geografis menggunakan teknik belajar Pomodoro
 Pre-Requisite:
-1. Web Service(Javascript ES6 Frontend+ Golang Backend)
+1. Web Service dengan menggunakan [Javascript ES6](https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/) Frontend dan Golang Backend.
 2. [Sintaks HTML5](https://www.tutorialspoint.com/html5/index.htm)
 3. Git dan Github Pages
 4. Arsitektur Serverless Micro-Frontend
@@ -66,7 +66,14 @@ Sebelum memulai pembelajaran, Peserta harus dahulu memahami :
    ```
 7. Kumpulkan URL github page ke group kelas lampirkan NPM dan NAMA
 
-## Chapter 3 : Fixing Invalid Geometry Data
+## Chapter 3 : Basis Data Geospasial
+Didalamnya terdapat tata cara insert, indexing dan Fixing Invalid Geometry Data
+### Syarat Pembelajaran
+Untuk pertemuan kali ini dibutuhkan pemahaman dasar :
+1. Memahami NoSQL MongoDB GeoJSON Object
+2. Memahami Geospatial Queries pada MongoDB
+3. Memahami indexing GeoJSON Object Pada MongoDB
+
 ### Source Data
 1. http://download.geofabrik.de/asia/indonesia.html
 2. https://openstreetmap.or.id/en/data-openstreetmap-indonesia/
