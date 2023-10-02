@@ -74,7 +74,7 @@ Untuk pertemuan kali ini dibutuhkan pemahaman dasar :
 2. Memahami Geospatial Queries pada MongoDB
 3. Memahami indexing GeoJSON Object Pada MongoDB
 
-### Source Data
+### Sumber Sumber Data Geo Spasial
 1. http://download.geofabrik.de/asia/indonesia.html
 2. https://openstreetmap.or.id/en/data-openstreetmap-indonesia/
 3. https://www.arrayiterator.com/kodepos-geocoding-json-seluruh-indonesia-sesuai-bps
@@ -156,7 +156,7 @@ filedata = filedata.replace(']}', ']]}}')
 with open('village.geojson', 'w') as file:
   file.write(filedata)
 ```
-2. Cree free tier database from mongodb.com connect it with your mongo compass. Add query IP Address from step 1. and create db, collection and index with colab.Choose one city/residence, make sure city different from other insert the city data into your mongodb using colab or compass. Import to notvalid collection first.
+2. Create free tier database from mongodb.com connect it with your mongo compass. Add query IP Address from step 1. and create db, collection and index with colab.Choose one city/residence, make sure city different from other insert the city data into your mongodb using colab or compass. Import to notvalid collection first.
 ```python
 !mongoimport --uri="mongodb+srv://awangga:rollyganteng@serverlessinstance0.wginu.mongodb.net/location" --collection=notvalid village.geojson --jsonArray
 ```
