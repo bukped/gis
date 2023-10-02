@@ -51,10 +51,10 @@ Sebelum memulai pembelajaran, Peserta harus dahulu memahami :
 3. Start Pomokit dengan link URL github pages yang dibuat
 
 ### Task
-1. Buka petapedia.github.io pelajari kode program dan cara implementasi nya dari souce code repo github.com/petapedia/petapedia.github.io
+1. Buka [petapedia.github.io](https://petapedia.github.io/) pelajari kode program dan cara implementasi nya dari [source code repo PetaPedia](https://github.com/petapedia/petapedia.github.io).
 2. Buatlah pemetaan dari data Chapter1 ke dalam satu halaman yang kemaren di buat
 3. Peta ditaruh diatas data dengan ukuran yang proporsional
-4. Peta langsung zoom ke lokasi dimana data berkumpul
+4. Peta langsung set zoom dan center di titik lokasi dimana data berkumpul
 5. Gunakan selalu ES6 module dalam membangun aplikasi task ini, Contoh :
    ```js
    <script type="module" src="./main.js"></script>
