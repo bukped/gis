@@ -52,10 +52,11 @@ Sebelum memulai pembelajaran, Peserta harus dahulu memahami :
 
 ### Task
 1. Buka [petapedia.github.io](https://petapedia.github.io/) pelajari kode program dan cara implementasi nya dari [source code repo PetaPedia](https://github.com/petapedia/petapedia.github.io).
-2. Buatlah pemetaan dari data Chapter 1(50 Polygon, 50 point, 50 polyline) ke dalam satu halaman yang kemaren di buat
-3. Peta ditaruh diatas data dengan ukuran yang proporsional.
-4. Peta langsung set zoom dan center di titik lokasi dimana data berkumpul
-5. Selalu gunakan selalu ES6 module dalam membangun aplikasi task ini, Contoh :
+2. Buatlah pemetaan dari data geospasial Chapter 1(50 Polygon, 50 point, 50 polyline) ke dalam satu halaman yang kemaren di buat
+3. Pastikan data geospasial masih dalam satu wilayah, tidak beda daerah.
+4. Peta ditaruh diatas data dengan ukuran yang proporsional.
+5. Peta langsung set zoom dan center di titik lokasi dimana data berkumpul
+6. Selalu gunakan selalu ES6 module dalam membangun aplikasi task ini, Contoh :
    ```js
    <script type="module" src="./main.js"></script>
    ```
