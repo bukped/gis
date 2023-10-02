@@ -41,7 +41,7 @@ Software Pendukung :
 ### Syarat Pembelajaran
 Sebelum memulai pembelajaran, Peserta harus dahulu memahami :
 1. [Javascript ES6 Modules](https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/)
-2. [HTML5 Event](https://www.tutorialspoint.com/html5/html5_events.htm) dan CSS dasar menggunakan Bulma atau Tailwind
+2. [HTML5 Event](https://www.tutorialspoint.com/html5/html5_events.htm) dan Modern CSS dasar menggunakan Bulma atau Tailwind
 3. Memahami cara memanggil ES6 module dan CSS dengan import dari CDN
 4. Memahami konsep Serverless Micro-Frontend
 
