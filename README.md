@@ -48,7 +48,7 @@ Sebelum memulai pembelajaran, Peserta harus dahulu memahami :
 ### Buat Repositori Praktikum
 1. Buat repositori masing-masing untuk mengerjakan Praktikum GIS, Boleh melanjutkan Repo Sebelumnya
 2. Aktifkan github pages dari repo tersebut dan coba akses alamat github pages tersebut
-3. Start Pomokit dengan link URL github pages yang dibuat
+3. Start Pomokit dengan link URL github pages yang akan dibuat
 
 ### Task
 1. Buka [petapedia.github.io](https://petapedia.github.io/) pelajari kode program dan cara implementasi nya dari [source code repo PetaPedia](https://github.com/petapedia/petapedia.github.io).
@@ -64,7 +64,8 @@ Sebelum memulai pembelajaran, Peserta harus dahulu memahami :
    <script src="https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js"></script>
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v8.1.0/ol.css">
    ```
-7. Kumpulkan URL github page ke group kelas lampirkan NPM dan NAMA
+7. Pastikan di github pages mencantumkan nama dan NPM.
+8. Pengumpulan otomatis dilakukan oleh pomokit dan iteung, pastikan yang diinputkan adalah URL github pages yang benar.
 
 ## Chapter 3 : Basis Data Geospasial
 Didalamnya terdapat tata cara insert, indexing dan Fixing Invalid Geometry Data
