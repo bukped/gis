@@ -4,7 +4,8 @@ Pre-Requisite:
 1. Web Service(Javascript ES6 Frontend+ Golang Backend)
 2. Git
 3. Github Pages
-4. MongoDB
+4. Arsitektur Serverless Micro-Frontend
+5. MongoDB
 
 Software Pendukung :
 1. VSCode
@@ -42,6 +43,7 @@ Sebelum memulai pembelajaran, Peserta harus dahulu memahami :
 1. [Javascript ES6 Modules](https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/)
 2. HTML dan CSS dasar menggunakan Bulma atau Tailwind
 3. Memahami cara memanggil ES6 module dan CSS dengan import dari CDN
+4. Memahami konsep Serverless Micro-Frontend
 
 ### Buat Repositori Praktikum
 1. Buat repositori masing-masing untuk mengerjakan Praktikum GIS, Boleh melanjutkan Repo Sebelumnya
