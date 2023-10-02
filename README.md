@@ -1,4 +1,4 @@
-# geojson
+# Sistem Informasi Geografis
 Bahan ajar Sistem Informasi Geografis menggunakan teknik belajar Pomodoro
 Pre-Requisite:
 1. Web Service(Javascript ES6 Frontend+ Golang Backend)
@@ -17,7 +17,7 @@ Software Pendukung :
 1. Buat repositori masing-masing untuk mengerjakan Praktikum GIS
 2. Aktifkan github pages dari repo tersebut dan coba akses alamat github pages tersebut
 3. Boleh menggunakan repo pribadi atau organisasi
-4. Kumpulkan link URL github pages pada repo ketua kelas
+4. Kumpulkan link URL github pages pada group kelas
 
 ### Task
 1. Buatlah geojson sebanyak masing-masing 50 dokumen untuk type point, polyline,polygone boleh menggunakan geojson.io
@@ -34,9 +34,29 @@ Software Pendukung :
   ```
 5. Tampilkan data tersebut dalam bentuk tabel tampilan HTML di github pages per kategori type data geospasial(1 kategori 1 tabel) dengan kolom : No. Nama, Type, Koordinat.
 6. Pastikan minimal ada 3 file dalam repo tersebut yaitu : File index.html, data.json, app.js
-7. Kumpulkan URL github pages ke Ketua Kelas
+7. Kumpulkan URL github pages ke Group Kelas
 
-## Chapter 2 : Fixing Invalid Geometry Data
+## Chapter 2 : Openlayers
+### Syarat Pembelajaran
+Sebelum memulai pembelajaran, Peserta harus dahulu memahami :
+1. [Javascript ES6 Modules](https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/)
+2. HTML dan CSS dasar menggunakan Bulma atau Tailwind
+3. Memahami cara memanggil ES6 module dan CSS dengan import dari CDN
+
+### Buat Repositori Praktikum
+1. Buat repositori masing-masing untuk mengerjakan Praktikum GIS, Boleh melanjutkan Repo Sebelumnya
+2. Aktifkan github pages dari repo tersebut dan coba akses alamat github pages tersebut
+3. Start Pomokit dengan link URL github pages yang dibuat
+
+### Task
+1. Buka petapedia.github.io pelajari kode program dan cara implementasi nya dari souce code repo github.com/petapedia/petapedia.github.io
+2. Buatlah pemetaan dari data Chapter1 ke dalam satu halaman yang kemaren di buat
+3. Peta ditaruh diatas data dengan ukuran yang proporsional
+4. Peta langsung zoom ke lokasi dimana data berkumpul
+5. Gunakan selalu ES6 module dalam membangun aplikasi
+6. Kumpulkan URL github page ke group kelas lampirkan NPM dan NAMA
+
+## Chapter 3 : Fixing Invalid Geometry Data
 ### Source Data
 1. http://download.geofabrik.de/asia/indonesia.html
 2. https://openstreetmap.or.id/en/data-openstreetmap-indonesia/
@@ -187,10 +207,10 @@ mycol.create_index( [("border" , pymongo.GEOSPHERE )] )
 8. After Approved you are done
 
 
-## Chapter 3 : Javascript preparation
+## Chapter 4 : Javascript preparation
 
 [Here](leaflet/README.md)
 
-## Chapter 4 : Geojson Webservice
+## Chapter 5 : Geojson Webservice
 
 [Here](endpoint/README.md)
