@@ -14,7 +14,7 @@ Syarat pembelaaran :
 3. Gunakan google cloud function dengan bahasa pemrograman golang untuk menampilkan json dari mongodb.
 4. Setting CORS di cloud function agar bisa diakses dari github pages sendiri
 5. Contoh Google Cloud Function: https://github.com/petapedia/gcf
-6. Pada github pages, ganti sumber data asalnya dari file ganti jadi get ke URL cloud function yg dibuat
+6. Pada github pages, ganti sumber data asalnya dari file ganti jadi get ke URL cloud function yg dibuat. Hapus file json di repo karena sudah tidak dipakai lagi.
 7. Contoh github pages yang mengakses GCF : https://jscroot.github.io/examples/api/get/fromgcf/
 
 ### Referensi
