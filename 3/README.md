@@ -19,5 +19,6 @@ Syarat pembelaaran :
 
 ### Referensi
 
-https://cloud.google.com/functions/docs/writing/write-http-functions
-https://www.mongodb.com/docs/manual/geospatial-queries/#geospatial-indexes
+Referensi :
+1. https://cloud.google.com/functions/docs/writing/write-http-functions
+2. https://www.mongodb.com/docs/manual/geospatial-queries/#geospatial-indexes
