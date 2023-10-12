@@ -11,11 +11,13 @@ Syarat pembelaaran :
    ![image](https://github.com/bukped/gis/assets/11188109/44efbf10-7790-4b0d-b18d-ea2ed8b46128)
 2. Aktifkan index 2dsphere
    ![image](https://github.com/bukped/gis/assets/11188109/199aa390-daf8-4878-94d2-59a93049a74a)
-3. Gunakan google cloud function dengan bahasa pemrograman golang untuk menampilkan json dari mongodb
+3. Gunakan google cloud function dengan bahasa pemrograman golang untuk menampilkan json dari mongodb.
 4. Setting CORS di cloud function agar bisa diakses dari github pages sendiri
-5. Pada github pages, ganti sumber data asalnya dari file ganti jadi get ke URL cloud function yg dibuat
+5. Contoh Google Cloud Function: https://github.com/petapedia/gcf
+6. Pada github pages, ganti sumber data asalnya dari file ganti jadi get ke URL cloud function yg dibuat
+7. Contoh github pages yang mengakses GCF : https://jscroot.github.io/examples/api/get/fromgcf/
 
-Ref:
+### Referensi
+
 https://cloud.google.com/functions/docs/writing/write-http-functions
-
 https://www.mongodb.com/docs/manual/geospatial-queries/#geospatial-indexes
