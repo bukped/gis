@@ -16,5 +16,6 @@ Syarat pembelaaran :
 4. Setting preflight CORS di cloud function agar bisa diakses dari github pages sendiri
 
 ### Rerensi
-1. [Openlayer Example](https://openlayers.org/en/latest/examples/)
+1. [Openlayer Example Draw Features](https://openlayers.org/en/latest/examples/draw-features.html)
 2. [JSCroot Example](https://jscroot.github.io/examples/)
+3. [GCF Post Example](https://petapedia.github.io/gcf/)
