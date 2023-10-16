@@ -4,8 +4,9 @@ Belajar Membuat backend penerima data geospasial
 ### Syarat Pembelajaran
 Syarat pembelaaran :
 1. Punya akun GCP(google cloud platform).
-2. Membuat basis data nosql di mongodb.com
+2. Memakai basis data nosql di mongodb.com
 3. Sudah membuat package
+4. Data yang ditampilkan diambil dari cloud function
 
 ### Kerjakan
 1. Buat input form berupa pop up di atas peta openlayer ketika di klik terambil kordinatnya tinggal isi parameter featurenya.
