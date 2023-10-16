@@ -18,4 +18,4 @@ Syarat pembelaaran :
 ### Rerensi
 1. [Openlayer Example Draw Features](https://openlayers.org/en/latest/examples/draw-features.html)
 2. [JSCroot Example](https://jscroot.github.io/examples/)
-3. [GCF Post Example](https://petapedia.github.io/gcf/)
+3. [GCF Post Example](https://petapedia.github.io/gcf/post/)
