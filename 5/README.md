@@ -13,9 +13,12 @@ Syarat pembelaaran :
 2. Website sudah menggunakan template dan menu berbasiskan bulma atau tailwind, template harus berbeda dengan peserta lainnya jika sama maka nilai akan dibagi dengan jumlah template yang sama.
 3. Ada laman atau modal login, untuk hak akses insert data atau update data.
 4. API update dan insert data sudah ditambah pengecekan token pada bagian header request. Pada swagger harus diperhatikan:
-   * bisa di set di tombol Authorize  ![image](https://github.com/bukped/gis/assets/11188109/5d2e6ef1-eafe-40a9-8a70-6299b76131c3)
-   * terdapat icon gembok  ![image](https://github.com/bukped/gis/assets/11188109/34716bfe-8918-4a5e-89ba-02cc655f8801)
-   * Pada saat executer terdapat header token  ![image](https://github.com/bukped/gis/assets/11188109/dd4b787e-2701-4609-986d-7015213134c2)
+   * bisa di set di tombol Authorize
+     ![image](https://github.com/bukped/gis/assets/11188109/5d2e6ef1-eafe-40a9-8a70-6299b76131c3)
+   * terdapat icon gembok
+     ![image](https://github.com/bukped/gis/assets/11188109/34716bfe-8918-4a5e-89ba-02cc655f8801)
+   * Pada saat executer terdapat header token
+     ![image](https://github.com/bukped/gis/assets/11188109/dd4b787e-2701-4609-986d-7015213134c2)
 5. API yang sudah dibuat di dokumentasikan melalui swagger yang bisa di akses di laman rootdomain/swagger dengan menyertakan info :
    * source code swagger yang di publish
    * package yang dipublish dan digunakan di GCF
