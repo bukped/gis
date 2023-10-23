@@ -4,8 +4,8 @@
 Syarat pembelaaran :
 1. Sudah memiliki backend GCF(google cloud function).
 2. Sudah terhubung dengan basis data nosql di mongodb.com
-3. Sudah membuat package di pkg.dev
-4. Sudah memahami PASETO dan implementasi user otorisasi
+3. Sudah membuat package di pkg.go.dev
+4. Sudah memahami PASETO dan implementasi user otorisasi melalui header request
 5. Memahami dokumentasi API menggunakan swagger
 
 ### Kerjakan
