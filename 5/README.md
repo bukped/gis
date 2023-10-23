@@ -20,7 +20,7 @@ Syarat pembelaaran :
      ![image](https://github.com/bukped/gis/assets/11188109/34716bfe-8918-4a5e-89ba-02cc655f8801)
    * Pada saat executer terdapat header token : -H 'token: asdasdasdad' \  
      ![image](https://github.com/bukped/gis/assets/11188109/dd4b787e-2701-4609-986d-7015213134c2)
-5. API yang sudah dibuat di dokumentasikan melalui swagger yang bisa di akses di laman rootdomain/swagger dengan menyertakan info :
+5. Seluruh API yang sudah dibuat di dokumentasikan melalui swagger yang bisa di akses di laman rootdomain/swagger dengan menyertakan info :
    * source code swagger yang di publish
    * package yang dipublish dan digunakan di GCF
    * repo source code dari GCF
@@ -28,7 +28,6 @@ Syarat pembelaaran :
    ![image](https://github.com/bukped/gis/assets/11188109/8db9052d-3056-48ec-af1f-5b5b1b396ac9)
 6. Semua endpoint di swagger berjalan baik ketika di klik Try It Out ![image](https://github.com/bukped/gis/assets/11188109/40c02a80-3fe1-4ebf-aa1c-b9fa05f22bb5)  
    ![image](https://github.com/bukped/gis/assets/11188109/f14aa7e3-10de-4223-a711-1d91e7f68755)
-
 7. Sudah ada minimal 5 API : Auth, GetData, InsertData, UpdateData, DeleteData
 
 ### Referensi
