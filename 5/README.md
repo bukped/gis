@@ -34,3 +34,4 @@ Syarat pembelaaran :
 1. [Swagger untuk Github Pages](https://jscroot.github.io/examples/api/swagger/)
 2. [JSCroot API Example](https://jscroot.github.io/examples/api/)
 3. [GCF Example](https://petapedia.github.io/gcf/)
+4. [Package Example](https://pkg.go.dev/github.com/petapedia/peda)
