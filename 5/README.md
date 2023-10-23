@@ -6,6 +6,7 @@ Syarat pembelaaran :
 2. Sudah terhubung dengan basis data nosql di mongodb.com
 3. Sudah membuat package di pkg.dev
 4. Sudah memahami PASETO dan implementasi user otorisasi
+5. Memahami dokumentasi API menggunakan swagger
 
 ### Kerjakan
 1. Website sudah bisa diakses dari root domain. contoh jscroot.github.io ,tidak lagi akses dengan url panjang (misal: jscroot.github.io/jscroot atau jscroot.github.io/jscroot.github.io)
