@@ -16,7 +16,7 @@ Syarat pembelaaran :
    * source code swagger yang di publish
    * package yang dipublish dan digunakan di GCF
    * repo source code dari GCF
-   * link URL GCF
+   * link URL GCF  
    ![image](https://github.com/bukped/gis/assets/11188109/8db9052d-3056-48ec-af1f-5b5b1b396ac9)
 7. Sudah ada minimal 4 API : Auth, GetData, InsertData, UpdateData
 
