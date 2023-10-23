@@ -15,7 +15,7 @@ Syarat pembelaaran :
 5. API yang sudah dibuat di dokumentasikan melalui swagger yang bisa di akses di laman namarepo.github.io/swagger
 6. Sudah ada minimal 4 API : Auth, GetData, InsertData, UpdateData
 
-### Rerensi
+### Referensi
 1. [Swagger untuk Github Pages](https://jscroot.github.io/examples/api/swagger/)
 2. [JSCroot API Example](https://jscroot.github.io/examples/api/)
 3. [GCF Example](https://petapedia.github.io/gcf/)

@@ -15,7 +15,7 @@ Syarat pembelaaran :
 3. Buatlah google cloud function baru untuk menerima data dari HTTP POST frontend github pages.
 4. Setting preflight CORS di cloud function agar bisa diakses dari github pages sendiri
 
-### Rerensi
+### Referensi
 1. [Openlayer Example Draw Features](https://openlayers.org/en/latest/examples/draw-features.html)
 2. [JSCroot Example](https://jscroot.github.io/examples/)
 3. [GCF Post Example](https://petapedia.github.io/gcf/post/)
