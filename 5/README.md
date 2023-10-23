@@ -33,7 +33,7 @@ Syarat pembelaaran :
    ```html
    <script src="./app.js" type="module"></script>
    ```
-9. Hindari penggunaan library jquery karena masih menggunakan script lama ES5
+9. Hindari penggunaan library jquery karena masih menggunakan script lama ES5 sehingga membingungkan pengembang Frontend
 10. Tambahkan file 404.html pada root folder repo untuk mempercantik bagi yang salah ketik URL
 
 ### Referensi
