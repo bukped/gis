@@ -17,7 +17,7 @@ Syarat pembelaaran :
      ![image](https://github.com/bukped/gis/assets/11188109/5d2e6ef1-eafe-40a9-8a70-6299b76131c3)
    * terdapat icon gembok  
      ![image](https://github.com/bukped/gis/assets/11188109/34716bfe-8918-4a5e-89ba-02cc655f8801)
-   * Pada saat executer terdapat header token  
+   * Pada saat executer terdapat header token : -H 'token: asdasdasdad' \  
      ![image](https://github.com/bukped/gis/assets/11188109/dd4b787e-2701-4609-986d-7015213134c2)
 5. API yang sudah dibuat di dokumentasikan melalui swagger yang bisa di akses di laman rootdomain/swagger dengan menyertakan info :
    * source code swagger yang di publish
