@@ -13,7 +13,7 @@ Syarat pembelaaran :
 2. Website sudah menggunakan template dan menu berbasiskan bulma atau tailwind, template harus berbeda dengan peserta lainnya jika sama maka nilai akan dibagi dengan jumlah template yang sama.
 3. Ada laman atau modal login, untuk hak akses insert data atau update data. Jika login sukses, akan reply token dan token ini yang digunakan untuk mengakses endpoint API insert, update dan delete.  
    ![image](https://github.com/bukped/gis/assets/11188109/0cac2c84-41da-43d3-be65-3af04a332b3a)
-4. Pada endpoint GCF API update dan insert data sudah ditambah pengecekan token pada bagian header request. Pada swagger harus diperhatikan:
+4. Pada endpoint GCF API delete, update dan insert data sudah ditambah pengecekan token pada bagian header request. Pada swagger harus diperhatikan:
    * bisa di set di tombol Authorize  
      ![image](https://github.com/bukped/gis/assets/11188109/5d2e6ef1-eafe-40a9-8a70-6299b76131c3)
    * terdapat icon gembok  
@@ -29,7 +29,7 @@ Syarat pembelaaran :
 6. Semua endpoint di swagger berjalan baik ketika di klik Try It Out ![image](https://github.com/bukped/gis/assets/11188109/40c02a80-3fe1-4ebf-aa1c-b9fa05f22bb5)  
    ![image](https://github.com/bukped/gis/assets/11188109/f14aa7e3-10de-4223-a711-1d91e7f68755)
 
-7. Sudah ada minimal 4 API : Auth, GetData, InsertData, UpdateData
+7. Sudah ada minimal 5 API : Auth, GetData, InsertData, UpdateData, DeleteData
 
 ### Referensi
 1. [Swagger untuk Github Pages](https://jscroot.github.io/examples/api/swagger/)
