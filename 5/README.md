@@ -34,6 +34,7 @@ Syarat pembelaaran :
    <script src="./app.js" type="module"></script>
    ```
 9. Hindari penggunaan library jquery karena masih menggunakan script lama ES5
+10. Tambahkan file 404.html pada root folder repo untuk mempercantik bagi yang salah ketik URL
 
 ### Referensi
 1. [Swagger untuk Github Pages](https://jscroot.github.io/examples/api/swagger/)
