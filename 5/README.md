@@ -29,7 +29,7 @@ Syarat pembelaaran :
 6. Semua endpoint di swagger berjalan baik ketika di klik Try It Out ![image](https://github.com/bukped/gis/assets/11188109/40c02a80-3fe1-4ebf-aa1c-b9fa05f22bb5)  
    ![image](https://github.com/bukped/gis/assets/11188109/f14aa7e3-10de-4223-a711-1d91e7f68755)
 7. Sudah ada minimal 5 API : Auth, GetData, InsertData, UpdateData, DeleteData
-8. Semua file HTML **wajib dekralasikan type module** untuk memanggil js.
+8. Semua file HTML **wajib dekralasikan type module** untuk memanggil hanya js versi ES6+. Dilarang memanggil file js tanpa deklarasi type.
    ```html
    <script src="./app.js" type="module"></script>
    ```
