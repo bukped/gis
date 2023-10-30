@@ -1,4 +1,4 @@
-# Chapter 5: API Kordinat Terdekat dan Jalur
+# Chapter 6: API Kordinat Terdekat dan Jalur
 
 ## Syarat Pembelajaran
 Syarat pembelaaran :
