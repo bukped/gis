@@ -25,7 +25,7 @@ Syarat pembelaaran :
    ![image](https://github.com/bukped/gis/assets/11188109/f14aa7e3-10de-4223-a711-1d91e7f68755)
 
 ## Kerjakan endpoint backend
-1. Buatkan endpoint jalan terdekat dengan inputan kordinat, return berupa struct linestring jalan dan kordinat di dalam line string tersebut yang terdekat dengan titik input
+1. Buatkan endpoint jalan terdekat dengan inputan kordinat, return berupa struct linestring jalan dan kordinat di dalam line string tersebut yang terdekat dengan titik input. Gunakan query $near mongodb.
 2. Buatkan endpoint jalur dengan inputan jalan/linestring awal dan jalan/linestring akhir, return berupa slice atau array urutan dari linestring jalan yang dilalui.
 3. Untuk endpoint jalur, pastikan anda memiliki data geospasial jalan yang cukup banyak. Karena minimal endpoint jalur harus bisa menampung minimal 10 jalan yang dilalui.
 4. Dua endpoint ini dokumentasikan pada swagger yang dikerjakan sebelumnya. Dua endpoint ini juga wajib ada inputan token di header nya dan divalidasi tokennya.
@@ -35,3 +35,5 @@ Syarat pembelaaran :
 2. [JSCroot API Example](https://jscroot.github.io/examples/api/)
 3. [GCF Example](https://petapedia.github.io/gcf/)
 4. [Package Example](https://pkg.go.dev/github.com/petapedia/peda)
+5. [Near mongodb geospasial query](https://www.mongodb.com/docs/manual/reference/operator/query/near/)
+6. [Geospatial Queries](https://www.mongodb.com/docs/manual/reference/operator/query-geospatial/)
