@@ -38,3 +38,4 @@ Syarat pembelaaran :
 4. [Package Example](https://pkg.go.dev/github.com/petapedia/peda)
 5. [Near mongodb geospasial query](https://www.mongodb.com/docs/manual/reference/operator/query/near/)
 6. [Geospatial Queries](https://www.mongodb.com/docs/manual/reference/operator/query-geospatial/)
+7. [Work with Geospatial Data](https://www.mongodb.com/docs/drivers/go/current/fundamentals/geo/)
