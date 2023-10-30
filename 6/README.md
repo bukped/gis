@@ -29,7 +29,7 @@ Syarat pembelaaran :
 2. Buatkan endpoint jalur dengan inputan jalan/linestring awal dan jalan/linestring akhir, return berupa slice atau array urutan dari linestring jalan yang dilalui.
 3. Untuk endpoint jalur, pastikan anda memiliki data geospasial jalan yang cukup banyak. Karena minimal endpoint jalur harus bisa menampung minimal 10 jalan yang dilalui.
 4. Dua endpoint ini dokumentasikan pada swagger yang dikerjakan sebelumnya. Dua endpoint ini juga wajib ada inputan token di header nya dan divalidasi tokennya.
-5. Kumpulkan link langsung ke URL swagger dari endpoint yang dibuat.
+5. Kumpulkan link langsung ke URL swagger dari endpoint yang dibuat pada pomokit. contoh : https://jscroot.github.io/swagger
 
 ### Referensi
 1. [Swagger untuk Github Pages](https://jscroot.github.io/examples/api/swagger/)
