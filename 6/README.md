@@ -24,9 +24,11 @@ Syarat pembelaaran :
 9. Semua endpoint di swagger berjalan baik ketika di klik Try It Out ![image](https://github.com/bukped/gis/assets/11188109/40c02a80-3fe1-4ebf-aa1c-b9fa05f22bb5)  
    ![image](https://github.com/bukped/gis/assets/11188109/f14aa7e3-10de-4223-a711-1d91e7f68755)
 
-## Kerjakan backend
+## Kerjakan endpoint backend
 1. Buatkan endpoint jalan terdekat dengan inputan kordinat, return berupa struct linestring jalan dan kordinat di dalam line string tersebut yang terdekat dengan titik input
 2. Buatkan endpoint jalur dengan inputan jalan/linestring awal dan jalan/linestring akhir, return berupa slice atau array urutan dari linestring jalan yang dilalui.
+3. Untuk endpoint jalur, pastikan anda memiliki data geospasial jalan yang cukup banyak. Karena minimal endpoint jalur harus bisa menampung minimal 10 jalan yang dilalui.
+4. Dua endpoint ini dokumentasikan pada swagger yang dikerjakan sebelumnya. Dua endpoint ini juga wajib ada inputan token di header nya dan divalidasi tokennya.
 
 ### Referensi
 1. [Swagger untuk Github Pages](https://jscroot.github.io/examples/api/swagger/)
