@@ -6,6 +6,7 @@ Langkah syarat :
 1. Buka dahulu referensi <https://www.mongodb.com/docs/manual/reference/operator/query-geospatial/>  
 2. buat akun di edx.ulbi.ac.id
 3. Pastikan data di mongodb anda cukup, jika tidak cukup bisa mengambil data dari <https://universitas.bukupedia.co.id/gis/data/>
+4. Pastikan contoh kode program sesuai dengan studi kasus yang sudah anda kerjakan sebelumnya
 
 ## Kerjakan
 
