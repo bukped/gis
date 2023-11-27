@@ -7,11 +7,10 @@ Langkah syarat :
 2. buat akun di edx.ulbi.ac.id
 3. Pastikan data di mongodb anda cukup, jika tidak cukup bisa mengambil data dari <https://universitas.bukupedia.co.id/gis/data/>
 
-# Kerjakan
+## Kerjakan
 
 Buat tutorial live coding di youtube kemudian dari link youtube dan buatlah kursus di studio-edx.ulbi.ac.id yang berisi(nilai 10 per poin) :
 
-1. Buat tutorial geoIntersects contoh cara pakai di mongocompass dan pada bahasa pemrograman golang
 1. Buat tutorial geoIntersects contoh cara pakai di mongocompass dan pada bahasa pemrograman golang
 2. Buat tutorial geoWithin contoh cara pakai di mongocompass dan pada bahasa pemrograman golang
 3. Buat tutorial near contoh cara pakai di mongocompass dan pada bahasa pemrograman golang
