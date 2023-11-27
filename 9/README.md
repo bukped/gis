@@ -7,6 +7,7 @@ Langkah syarat :
 2. buat akun di edx.ulbi.ac.id
 3. Pastikan data di mongodb anda cukup, jika tidak cukup bisa mengambil data dari <https://universitas.bukupedia.co.id/gis/data/>
 4. Pastikan contoh kode program sesuai dengan studi kasus data geospasial yang sudah anda kerjakan sebelumnya
+5. Pastikan setiap poin sudah terdeploy di GCF dan bisa di test di swagger yang dibuat kemarin
 
 ## Kerjakan
 
