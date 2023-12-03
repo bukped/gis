@@ -1,0 +1,428 @@
+[
+{
+    "type": "Feature",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[
+        [
+          107.58323658758462,
+          -6.888610701181804
+        ],
+        [
+          107.58322107285642,
+          -6.8886856986857055
+        ],
+        [
+          107.5833739690575,
+          -6.888711097288152
+        ],
+        [
+          107.58339147031415,
+          -6.888638059324464
+        ],
+        [
+          107.58323658758462,
+          -6.888610701181804
+        ]
+      ]]
+    },
+    "properties": {
+      "name": "OYO 2265 Bunga Bakung Residence",
+        "amenity": "College",
+        "popupContent": "TEMPAT BOBO ",
+        "style": {
+            "weight": 2,
+            "color": "#999",
+            "opacity": 1,
+            "fillColor": "#B0DE5C",
+            "fillOpacity": 0.8
+        }
+    }
+  },
+
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [ [
+        [
+          107.58264096234757,
+          -6.889698201614138
+        ],
+        [
+          107.58261879691662,
+          -6.889823914686758
+        ],
+        [
+          107.58269659028434,
+          -6.8898331737513985
+        ],
+        [
+          107.5827305946749,
+          -6.889698201614138
+        ],
+        [
+          107.58264096234757,
+          -6.889698201614138
+        ]
+      ]]
+    },
+    "properties": {
+      "name": "OYO 1608 Feby Maisonatte",
+        "amenity": "College",
+        "popupContent": "TEMPAT BOBO",
+        "style": {
+            "weight": 2,
+            "color": "#999",
+            "opacity": 1,
+            "fillColor": "#B0DE5C",
+            "fillOpacity": 0.8
+        }
+    }
+    
+  }
+  ,
+  
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [   [
+        [
+          107.58496791536419,
+          -6.886955497026165
+        ],
+        [
+          107.58496340218022,
+          -6.887171384813726
+        ],
+        [
+          107.58513511623511,
+          -6.887181684038637
+        ],
+        [
+          107.58512757362018,
+          -6.886953465529416
+        ],
+        [
+          107.58496791536419,
+          -6.886955497026165
+        ]
+      ]]
+    },
+    "properties": {
+      "name": "OYO 196 Horizone Residence",
+        "amenity": "College",
+        "popupContent": "TEMPAT BOBO ",
+        "style": {
+            "weight": 2,
+            "color": "#999",
+            "opacity": 1,
+            "fillColor": "#B0DE5C",
+            "fillOpacity": 0.8
+        }
+    }
+    
+  }
+  ,
+  
+  
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [  [
+        [
+          107.58197708311542,
+          -6.8878455583019615
+        ],
+        [
+          107.58192461453427,
+          -6.887977010764274
+        ],
+        [
+          107.58199572794382,
+          -6.887984267626933
+        ],
+        [
+          107.582056032467,
+          -6.887874126319119
+        ],
+        [
+          107.58197708311542,
+          -6.8878455583019615
+        ]
+      ]]
+    },
+    "properties": {
+      "name": "OYO Teratai Residence",
+        "amenity": "College",
+        "popupContent": "Tempat belajar",
+        "style": {
+            "weight": 2,
+            "color": "#999",
+            "opacity": 1,
+            "fillColor": "#B0DE5C",
+            "fillOpacity": 0.8
+        }
+    }
+    
+  },
+  
+  
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [     [
+        [
+          107.58197708311542,
+          -6.8878455583019615
+        ],
+        [
+          107.58192461453427,
+          -6.887977010764274
+        ],
+        [
+          107.58199572794382,
+          -6.887984267626933
+        ],
+        [
+          107.582056032467,
+          -6.887874126319119
+        ],
+        [
+          107.58197708311542,
+          -6.8878455583019615
+        ]
+      ]]
+    },
+    "properties": {
+      "name": "OYO 2385 Maleo Exclusive Residence 2",
+        "amenity": "College",
+        "popupContent": "Tempat belajar nya sekolah pokasi",
+        "style": {
+            "weight": 2,
+            "color": "#999",
+            "opacity": 1,
+            "fillColor": "#B0DE5C",
+            "fillOpacity": 0.8
+        }
+    }
+    
+  },
+  
+  
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [    [
+            [
+              107.58359738501201,
+              -6.887481439935328
+            ],
+            [
+              107.58383878951201,
+              -6.887573520750664
+            ],
+            [
+              107.58388707041252,
+              -6.887401972914915
+            ],
+            [
+              107.58369267626131,
+              -6.887356563182593
+            ],
+            [
+              107.58359738501201,
+              -6.887481439935328
+            ]
+          ]]
+    },
+    "properties": {
+      "name": "OYO Life 2050 D'cinnamons Residence",
+        "amenity": "College",
+        "popupContent": "Tempat bobo bareng skluarga",
+        "style": {
+            "weight": 2,
+            "color": "#999",
+            "opacity": 1,
+            "fillColor": "#B0DE5C",
+            "fillOpacity": 0.8
+        }
+    }
+    
+  },
+  
+  
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [ [
+            [
+              107.57753339434822,
+              -6.8879649449810785
+            ],
+            [
+              107.5775262314437,
+              -6.888083381813885
+            ],
+            [
+              107.57765635761666,
+              -6.888079826209093
+            ],
+            [
+              107.57765993907003,
+              -6.887957750438616
+            ],
+            [
+              107.57753339434822,
+              -6.8879649449810785
+            ]
+          ]]
+    },
+    "properties": {
+      "name": "OYO 2728 Sinulingga Residence",
+        "amenity": "College",
+        "popupContent": "Tempat bobo",
+        "style": {
+            "weight": 2,
+            "color": "#999",
+            "opacity": 1,
+            "fillColor": "#B0DE5C",
+            "fillOpacity": 0.8
+        }
+    }
+    
+  },
+  
+  
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [   [
+              107.58195454000372,
+              -6.891002584855869
+            ],
+            [
+              107.58210038639214,
+              -6.891027448270165
+            ],
+            [
+              107.58210922556628,
+              -6.890923606947155
+            ],
+            [
+              107.5819677987671,
+              -6.890904593744494
+            ],
+            [
+              107.58195454000372,
+              -6.891002584855869
+            ]
+          ]
+    },
+    "properties": {
+      "name": "OYO 3341 Ten Guest House",
+        "amenity": "College",
+        "popupContent": "Tempat belajar nya sekolah pokasi",
+        "style": {
+            "weight": 2,
+            "color": "#999",
+            "opacity": 1,
+            "fillColor": "#B0DE5C",
+            "fillOpacity": 0.8
+        }
+    }
+    
+  },
+  
+  
+  
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [     [
+            [
+              107.58195454000372,
+              -6.891002584855869
+            ],
+            [
+              107.58210038639214,
+              -6.891027448270165
+            ],
+            [
+              107.58210922556628,
+              -6.890923606947155
+            ],
+            [
+              107.5819677987671,
+              -6.890904593744494
+            ],
+            [
+              107.58195454000372,
+              -6.891002584855869
+            ]
+          ]]
+    },
+    "properties": {
+      "name": "OYO 90218 Ubaran Guest House",
+        "amenity": "College",
+        "popupContent": "Tempat bobo",
+        "style": {
+            "weight": 2,
+            "color": "#999",
+            "opacity": 1,
+            "fillColor": "#B0DE5C",
+            "fillOpacity": 0.8
+        }
+    }
+    
+  },
+  
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [    [
+            [
+              107.59783513292905,
+              -6.888742199003758
+            ],
+            [
+              107.59802724301721,
+              -6.888918251186112
+            ],
+            [
+              107.5981365979921,
+              -6.888756870021453
+            ],
+            [
+              107.59795039898171,
+              -6.888618962436368
+            ],
+            [
+              107.59783513292905,
+              -6.888742199003758
+            ]
+          ]]
+    },
+    "properties": {
+      "name": "OYO 295 Grha Ciumbuleuit Guest House",
+        "amenity": "College",
+        "popupContent": "Tempat bobo paling uwuw",
+        "style": {
+            "weight": 2,
+            "color": "#999",
+            "opacity": 1,
+            "fillColor": "#B0DE5C",
+            "fillOpacity": 0.8
+        }
+    }
+    
+  }
+]
