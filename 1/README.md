@@ -23,7 +23,7 @@ Pilihan aplikasi teaching factory:
 4. Go Biz(menu untuk penjualan pedagang keliling/rumahan) contoh : https://jual.in.my.id/pasakanambu/
 
 ### Task
-1. Buatlah geojson sebanyak masing-masing 50 dokumen untuk type point, polyline,polygone boleh menggunakan geojson.io
+1. Perbaiki geojson batas desa dan kelurahan dibagi-bagi untuk semua kelas per orang dapat, validasi bisa menggunakan geojson.io
 2. Isi properties dari [geojson](https://geojson.org/) dengan nama data geospasial 
   ```json
   "properties": {
