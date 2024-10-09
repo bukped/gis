@@ -24,7 +24,7 @@ Pilihan aplikasi teaching factory:
 
 ### Task
 1. Buatlah geojson sebanyak masing-masing 50 dokumen untuk type point, polyline,polygone boleh menggunakan geojson.io
-2. Isi properties dari geojson dengan nama data geospasial
+2. Isi properties dari [geojson](https://geojson.org/) dengan nama data geospasial 
   ```json
   "properties": {
   "name": "Gang Senggol Dong"
