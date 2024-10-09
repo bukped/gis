@@ -20,7 +20,7 @@ Pilihan aplikasi teaching factory:
 1. Petapedia(penyedia layanan peta gratis untuk di gunakan di aplikasi lain)
 2. Parkir Gratis(lokasi parkir gratis di bandung raya(cimahi,kbb,kab bandung))
 3. ID Bisnis(Kembangkan dari Satu data kemenkop)
-4. Go Biz(penjualan pedagang keliling/rumahan) contoh : https://jual.in.my.id/pasakanambu/
+4. Go Biz(menu untuk penjualan pedagang keliling/rumahan) contoh : https://jual.in.my.id/pasakanambu/
 
 ### Task
 1. Buatlah geojson sebanyak masing-masing 50 dokumen untuk type point, polyline,polygone boleh menggunakan geojson.io
