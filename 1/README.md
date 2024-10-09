@@ -14,6 +14,7 @@ Pada pertemuan ini, Peserta akan dilakukan pretest pengetahuan tentang pemrogram
 5. Gunakan Google Cloud Function
 6. Gunakan git
 7. Gunakan Domyikado per team
+8. Gunakan layanan whatsauth untuk login
 
 Pilihan aplikasi teaching factory:
 1. Petapedia(penyedia layanan peta gratis untuk di gunakan di aplikasi lain)
