@@ -1,4 +1,8 @@
 # Sistem Informasi Geografis
+
+Syarat Proyek3 dan Web Service
+
+## Dasar
 Bahan ajar Sistem Informasi Geografis menggunakan teknik belajar Pomodoro
 Pre-Requisite:
 1. Web Service dengan menggunakan [Javascript ES6](https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/) Frontend dan Golang Backend.
