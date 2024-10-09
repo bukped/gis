@@ -3,11 +3,23 @@
 Memahami apa itu GIS dan memahami Kordinat dan Data Geospasial
 
 ## Chapter 1: Pengenalan GIS dan Data Geospasial
-### Buat Repositori Praktikum
-1. Buat repositori masing-masing untuk mengerjakan Praktikum GIS
-2. Aktifkan github pages dari repo tersebut dan coba akses alamat github pages tersebut
-3. Boleh menggunakan repo pribadi atau organisasi
-4. Kumpulkan link URL github pages pada group kelas
+
+Pada pertemuan ini, Peserta akan dilakukan pretest pengetahuan tentang pemrograman 3 dan mata perkuliahan pemrograman sebelumnya.
+
+### Teaching Factory
+1. Kembangkan real aplikasi yang dipakai di masyarakat untuk membangun portofolio
+2. Buat per team kelompok untuk memilih modul dari pilihan aplikasi yang akan di kembangkan
+3. Kembangkan dataset batas desa atau keluran dibagi perorang(folder data)
+4. Gunakan framework JSCroot dan GoCroot
+5. Gunakan Google Cloud Function
+6. Gunakan git
+7. Gunakan Domyikado per team
+
+Pilihan aplikasi teaching factory:
+1. Petapedia(penyedia layanan peta gratis untuk di gunakan di aplikasi lain)
+2. Parkir Gratis(lokasi parkir gratis di bandung raya(cimahi,kbb,kab bandung))
+3. ID Bisnis(Kembangkan dari Satu data kemenkop)
+4. Go Biz(penjualan pedagang keliling/rumahan)
 
 ### Task
 1. Buatlah geojson sebanyak masing-masing 50 dokumen untuk type point, polyline,polygone boleh menggunakan geojson.io
