@@ -23,20 +23,10 @@ Pilihan aplikasi teaching factory:
 4. Go Biz(menu untuk penjualan pedagang keliling/rumahan) contoh : https://jual.in.my.id/pasakanambu/
 5. Domyikado(agile framework)
 6. Bukupedia(penerbitan buku)
+7. WhatsAuth
 
 ### Task
 1. Cek geojson batas desa atau kelurahan dibagi-bagi untuk semua kelas per orang dapat, validasi bisa menggunakan geojson.io
-2. Isi properties dari [geojson](https://geojson.org/) dengan nama data geospasial 
-  ```json
-  "properties": {
-  "name": "Gang Senggol Dong"
-  },
-  ```
-3. Simpan file tersebut dalam repository dengan nama data.json
-4. Buatlah tampilan HTML untuk menampilkan data geosjon tersebut menggunakan Javascript ES6(file js terpisah dari html) pada github pages. Contoh pemanggilan Javascript ES6 Sebagai berikut:
-  ```html
-  <script src="./app.js" type="module"></script>
-  ```
-5. Tampilkan data tersebut dalam bentuk tabel tampilan HTML di github pages per kategori type data geospasial(1 kategori 1 tabel) dengan kolom : No. Nama, Type, Koordinat.
-6. Pastikan minimal ada 3 file dalam repo tersebut yaitu : File index.html, data.json, app.js
-7. Kumpulkan URL github pages ke Group Kelas
+2. Coba gunakan endpoint [ini](https://github.com/petapedia/petabackend/blob/c4e7d349b5227a1b5a7469d8012b10c426830295/controller/gis.go#L15) untuk mendapatkan daerah
+3. Kembangkan Tefa, pilih dan bagi team dengan target sehari 3 poin
+4. Presensi harian sehari minimal 1 poin
