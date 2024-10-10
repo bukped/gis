@@ -25,7 +25,7 @@ Pilihan aplikasi teaching factory:
 6. Bukupedia(penerbitan buku)
 
 ### Task
-1. Perbaiki geojson batas desa dan kelurahan dibagi-bagi untuk semua kelas per orang dapat, validasi bisa menggunakan geojson.io
+1. Cek geojson batas desa atau kelurahan dibagi-bagi untuk semua kelas per orang dapat, validasi bisa menggunakan geojson.io
 2. Isi properties dari [geojson](https://geojson.org/) dengan nama data geospasial 
   ```json
   "properties": {
