@@ -62,5 +62,3 @@ function response(result) {
 
     map.setView([Lat, Long], 15);
 }
-
-
