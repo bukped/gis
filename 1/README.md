@@ -19,11 +19,12 @@ Pada pertemuan ini, Peserta akan dilakukan pretest pengetahuan tentang pemrogram
 Pilihan aplikasi teaching factory:
 1. Petapedia(penyedia layanan peta gratis untuk di gunakan di aplikasi lain)
 2. Parkir Gratis(lokasi parkir gratis di bandung raya(cimahi,kbb,kab bandung))
-3. ID Bisnis(layanan analitics digital marketing seperti www.hotjar.com)
-4. Go Biz(menu untuk penjualan pedagang keliling/rumahan) contoh : https://jual.in.my.id/pasakanambu/
+3. [ID Bisnis](https://id.biz.id)(layanan analitics digital marketing seperti www.hotjar.com)
+4. [Go Biz](https://go.biz.id/)(menu untuk penjualan pedagang keliling/rumahan) contoh : https://jual.in.my.id/pasakanambu/
 5. Domyikado(agile framework)
 6. Bukupedia(penerbitan buku)
 7. WhatsAuth
+8. [mymyid](https://my.my.id)
 
 ### Task
 1. Cek geojson batas desa atau kelurahan dibagi-bagi untuk semua kelas per orang dapat, validasi bisa menggunakan geojson.io
