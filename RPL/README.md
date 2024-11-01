@@ -16,7 +16,7 @@ Pilihan aplikasi teaching factory untuk Project Manager:
 3. [ID Bisnis](https://id.biz.id)(layanan analitics digital marketing seperti www.hotjar.com) Dev Kosong
 4. ~[Go Biz](https://go.biz.id/)(tabsquare)~ : RONA ARIYOLO 
 5. Domyikado(agile framework)
-6. Aplikasi POS
+6. Aplikasi POS(Point Of Sales): Aditya nur Khaerullah
 7. Aplikasi Verifikasi Pembayaran
 8. Bukupedia(penerbitan buku) Dev Kosong
 9. WhatsAuth Dev Kosong
