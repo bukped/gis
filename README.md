@@ -20,13 +20,16 @@ Software Pendukung :
 
 ## Standar Penilaian
 
-1. Menggunakan GoCroot (25%)
-2. Menggunakan JSCroot (25%)
-3. Feedback Product Owner (5%)
-4. Task Jalan tanpa Bug (25%)
-5. Menggunakan WhatsAuth (5%)
-6. Menggunakan API PetaPedia (5%)
+1. Develop Frontend Menggunakan GoCroot (25%)
+2. Develop Backend Menggunakan JSCroot (25%)
+3. Feedback Dari Product Owner Real (10%)
+4. Task Jalan tanpa Bug dan sudah di deploy di main (20%)
+5. Team Menggunakan WhatsAuth (10%)
+6. Team Menggunakan API PetaPedia (10%)
 
+Perhitungan (Poin/Milestone)xPresentasi Di atas
 
+## Milestone
+1. Pertemuan 14 Nov : 120
 
 
