@@ -22,4 +22,7 @@ sudo -u postgres createdb --encoding=UTF8 --owner=osmuser osm
 sudo -u postgres psql osm --command='CREATE EXTENSION postgis;'
 sudo -u postgres psql osm --command='CREATE EXTENSION hstore;'
 ```
-![Buat Database Baru](image.png)
+![Buat Database Baru](image.png)  
+
+
+![Instalasi PostGIS](image-1.png)
