@@ -15,20 +15,17 @@ Jika ingin mengunduh semua data OSM maka kunjungi web [Planet](https://planet.op
 2. Buat Database `osm`, user `osmuser`
 3. Enable plugin `postgis` pada database yang baru dibuat
 4. Opsional enable juga extension `hstore`
-
-```sh
-sudo -u postgres createuser osmuser
-sudo -u postgres createdb --encoding=UTF8 --owner=osmuser osm
-sudo -u postgres psql osm --command='CREATE EXTENSION postgis;'
-sudo -u postgres psql osm --command='CREATE EXTENSION hstore;'
-```
-![Buat Database Baru](image.png)  
-
-![Instalasi PostGIS](image-1.png)  
-
-![Ekstensi Enable di Navicat](https://github.com/user-attachments/assets/0a9d7a28-2780-4ced-bb05-9789f9a9421a)
-
-![Jalankan Import](https://github.com/user-attachments/assets/e0c3aaf7-50d7-4df2-a8e4-2bd59b6721dc)
+    ```sh
+    sudo -u postgres createuser osmuser
+    sudo -u postgres createdb --encoding=UTF8 --owner=osmuser osm
+    sudo -u postgres psql osm --command='CREATE EXTENSION postgis;'
+    sudo -u postgres psql osm --command='CREATE EXTENSION hstore;'
+    ```
+    ![Buat Database Baru](image.png)  
+    ![Instalasi PostGIS](image-1.png)  
+    ![Ekstensi Enable di Navicat](https://github.com/user-attachments/assets/0a9d7a28-2780-4ced-bb05-9789f9a9421a)
+5. Unduh dan gunakan [OSM2pgsql](https://osm2pgsql.org/doc/manual.html)  
+![Jalankan Import](https://github.com/user-attachments/assets/e0c3aaf7-50d7-4df2-a8e4-2bd59b6721dc)  
 
 ```sh
 osm2pgsql java-nov24.osm.pbf -d osm -H 127.0.0.1 -U osmuser -W
