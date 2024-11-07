@@ -24,5 +24,9 @@ sudo -u postgres psql osm --command='CREATE EXTENSION hstore;'
 ```
 ![Buat Database Baru](image.png)  
 
+![Instalasi PostGIS](image-1.png)  
 
-![Instalasi PostGIS](image-1.png)
+![Ekstensi Enable di Navicat](https://github.com/user-attachments/assets/0a9d7a28-2780-4ced-bb05-9789f9a9421a)
+
+
+
