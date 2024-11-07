@@ -60,22 +60,28 @@ Assuming you have a specific point in the form of coordinates (latitude and long
    - Here’s a query that finds the nearest road to a given point (let's say you want to find the road closest to the point with coordinates `latitude` and `longitude`).
 
    ```sql
-   -- Replace <latitude> and <longitude> with your point's coordinates
    WITH point AS (
-       SELECT ST_SetSRID(ST_Point(<longitude>, <latitude>), 4326) AS geom
-   )
-   SELECT 
-       r.osm_id,
-       r.name,
-       r.highway,
-       r.way,
-       ST_Distance(r.way::geography, point.geom::geography) AS distance_meters
-   FROM 
-       planet_osm_roads r,
-       point
-   ORDER BY 
-       ST_Distance(r.way::geography, point.geom::geography) 
-   LIMIT 1;
+    SELECT ST_SetSRID(ST_Point(107.5757039885127, -6.8742889139371215), 4326) AS geom  -- Replace with your longitude and latitude
+    )
+    SELECT 
+        r.osm_id,
+        r.name,
+        r.highway,
+        r.way,
+        ST_Distance(
+            ST_Transform(r.way, 4326)::geography,  -- Transform the way geometry to SRID 4326
+            point.geom::geography
+        ) AS distance_meters
+    FROM 
+        planet_osm_roads r,
+        point
+    ORDER BY 
+        ST_Distance(
+            ST_Transform(r.way, 4326)::geography,
+            point.geom::geography
+        ) 
+    LIMIT 15;
+
    ```
 
    - **Explanation**:
@@ -84,31 +90,8 @@ Assuming you have a specific point in the form of coordinates (latitude and long
      - `ORDER BY ST_Distance(...)`: Orders the results by distance in ascending order to get the nearest road.
      - `LIMIT 1`: Limits the result to only the nearest road.
 
-### Replace `<latitude>` and `<longitude>`
+### Hasil
 
-Replace `<latitude>` and `<longitude>` with the actual coordinates of the point you're interested in.
+![Query Point Long Lat](https://github.com/user-attachments/assets/c373386f-bba7-4ff3-83e6-d0b2cdf68da5)
 
-### Example
-
-If your point is located at latitude `-6.200000` and longitude `106.816666` (coordinates for Jakarta, for instance), replace the placeholders as follows:
-
-```sql
-WITH point AS (
-    SELECT ST_SetSRID(ST_Point(106.816666, -6.200000), 4326) AS geom
-)
-SELECT 
-    r.osm_id,
-    r.name,
-    r.highway,
-    r.way,
-    ST_Distance(r.way::geography, point.geom::geography) AS distance_meters
-FROM 
-    planet_osm_roads r,
-    point
-ORDER BY 
-    ST_Distance(r.way::geography, point.geom::geography) 
-LIMIT 1;
-```
-
-This will return the nearest road, its name, type, geometry, and the distance from the specified point.
 
