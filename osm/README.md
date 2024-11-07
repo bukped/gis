@@ -4,7 +4,7 @@ Kita akan coba mengunduh dan mencoba sendiri data OpenStreetMap. Untuk mengunduh
 Jika ingin mengunduh semua data OSM maka kunjungi web [Planet](https://planet.openstreetmap.org/)
 
 ## Cara Mengunduh
-1. Download [Data OSM Asia](https://download.geofabrik.de/asia.html)
+1. Download [Data OSM Asia](https://download.geofabrik.de/asia.html) atau [pulau Jawa](https://download.geofabrik.de/asia/indonesia/java.html)
 2. Masukkan ke dalam RDBMS PostgreSQL menggunakan [OSM2PGSQL](https://osm2pgsql.org/)
 3. Filter data ambil saja data nama jalan wilayah Bandung, Cimahi, KBB, Kab. Bandung
 4. Coba buat fungsi nearest jalan di golang dari data jalan
