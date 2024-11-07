@@ -46,5 +46,69 @@ Jika ingin mengunduh semua data OSM maka kunjungi web [Planet](https://planet.op
     ```
     ![image](https://github.com/user-attachments/assets/b451e2a0-d5c6-4545-a139-9f4a87b20a03)  
 
+## Cara query jalan dari poin
+To find the nearest road from a specific point using the tables you've imported with `osm2pgsql`, you can use the `planet_osm_roads` table. This table contains road data, which you can use along with a point geometry to calculate the nearest road.
 
+Assuming you have a specific point in the form of coordinates (latitude and longitude), you can use the following SQL query to find the nearest road:
+
+### Steps
+
+1. **Ensure PostGIS Functions Are Enabled**: 
+   - Make sure you have the PostGIS extension enabled, as we will use spatial functions from PostGIS.
+
+2. **Query for the Nearest Road**:
+   - Here’s a query that finds the nearest road to a given point (let's say you want to find the road closest to the point with coordinates `latitude` and `longitude`).
+
+   ```sql
+   -- Replace <latitude> and <longitude> with your point's coordinates
+   WITH point AS (
+       SELECT ST_SetSRID(ST_Point(<longitude>, <latitude>), 4326) AS geom
+   )
+   SELECT 
+       r.osm_id,
+       r.name,
+       r.highway,
+       r.way,
+       ST_Distance(r.way::geography, point.geom::geography) AS distance_meters
+   FROM 
+       planet_osm_roads r,
+       point
+   ORDER BY 
+       ST_Distance(r.way::geography, point.geom::geography) 
+   LIMIT 1;
+   ```
+
+   - **Explanation**:
+     - `ST_SetSRID(ST_Point(<longitude>, <latitude>), 4326)`: Creates a point geometry from the latitude and longitude in the WGS 84 spatial reference system (SRID 4326).
+     - `ST_Distance(r.way::geography, point.geom::geography)`: Calculates the distance between the point and each road, using the `geography` type for accurate distance in meters.
+     - `ORDER BY ST_Distance(...)`: Orders the results by distance in ascending order to get the nearest road.
+     - `LIMIT 1`: Limits the result to only the nearest road.
+
+### Replace `<latitude>` and `<longitude>`
+
+Replace `<latitude>` and `<longitude>` with the actual coordinates of the point you're interested in.
+
+### Example
+
+If your point is located at latitude `-6.200000` and longitude `106.816666` (coordinates for Jakarta, for instance), replace the placeholders as follows:
+
+```sql
+WITH point AS (
+    SELECT ST_SetSRID(ST_Point(106.816666, -6.200000), 4326) AS geom
+)
+SELECT 
+    r.osm_id,
+    r.name,
+    r.highway,
+    r.way,
+    ST_Distance(r.way::geography, point.geom::geography) AS distance_meters
+FROM 
+    planet_osm_roads r,
+    point
+ORDER BY 
+    ST_Distance(r.way::geography, point.geom::geography) 
+LIMIT 1;
+```
+
+This will return the nearest road, its name, type, geometry, and the distance from the specified point.
 
