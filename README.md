@@ -19,7 +19,7 @@ Software Pendukung :
 4. Domyikado
 
 ## Standar Penilaian
-
+Parameter Penilaian:
 1. Develop Frontend Menggunakan GoCroot (25%)
 2. Develop Backend Menggunakan JSCroot (25%)
 3. Feedback Dari Product Owner Real (10%)
@@ -32,4 +32,4 @@ Perhitungan (Poin/Milestone)xPresentasi Di atas
 ## Milestone
 1. Pertemuan 14 Nov : 120
 
-
+Agar lebih efisien dibuatkan presentasi tentang kontribusinya terhadap masing masing parameter penilaian.
