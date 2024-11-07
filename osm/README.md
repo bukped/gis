@@ -28,6 +28,10 @@ sudo -u postgres psql osm --command='CREATE EXTENSION hstore;'
 
 ![Ekstensi Enable di Navicat](https://github.com/user-attachments/assets/0a9d7a28-2780-4ced-bb05-9789f9a9421a)
 
-![Add Path OSM2pgsql](https://github.com/user-attachments/assets/48823de5-dda5-446c-990a-cdb36571da18)  
+![Jalankan Import](https://github.com/user-attachments/assets/e0c3aaf7-50d7-4df2-a8e4-2bd59b6721dc)
+
+```sh
+osm2pgsql java-nov24.osm.pbf -d osm -H 127.0.0.1 -U osmuser -W
+```
 
 
