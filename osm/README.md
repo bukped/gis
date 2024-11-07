@@ -24,7 +24,21 @@ Jika ingin mengunduh semua data OSM maka kunjungi web [Planet](https://planet.op
     ![Buat Database Baru](image.png)  
     ![Instalasi PostGIS](image-1.png)  
     ![Ekstensi Enable di Navicat](https://github.com/user-attachments/assets/0a9d7a28-2780-4ced-bb05-9789f9a9421a)
-5. Unduh dan gunakan [OSM2pgsql](https://osm2pgsql.org/doc/manual.html)  
+   Lakukan optimasi setting pada file postgresql.conf
+   ```conf
+   shared_buffers = 1GB
+   work_mem = 50MB
+   maintenance_work_mem = 10GB
+   autovacuum_work_mem = 2GB
+   wal_level = minimal
+   checkpoint_timeout = 60min
+   max_wal_size = 10GB
+   checkpoint_completion_target = 0.9
+   max_wal_senders = 0
+   random_page_cost = 1.0
+   ```
+   
+6. Unduh dan gunakan [OSM2pgsql](https://osm2pgsql.org/doc/manual.html)  
     ![Jalankan Import](https://github.com/user-attachments/assets/e0c3aaf7-50d7-4df2-a8e4-2bd59b6721dc)  
     
     ```sh
