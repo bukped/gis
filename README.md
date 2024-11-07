@@ -9,10 +9,22 @@ Pre-Requisite:
 2. [Sintaks HTML5](https://www.tutorialspoint.com/html5/index.htm)
 3. Git dan Github Pages
 4. [Arsitektur Serverless Micro-Frontend](https://vanillajskit.github.io/)
-5. MongoDB
+5. MongoDB dan PostGreSQL (Database)
+6. Agile Scrum (RPL)
 
 Software Pendukung :
 1. VSCode
 2. MongoCompass
 3. Git Bash
-4. Pomokit
+4. Domyikado
+
+## Standar Penilaian
+
+1. Menggunakan GoCroot (25%)
+2. Menggunakan JSCroot (25%)
+3. Feedback Product Owner (25%)
+4. Task Jalan tanpa Bug (25%)
+
+
+
+
