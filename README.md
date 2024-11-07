@@ -22,8 +22,10 @@ Software Pendukung :
 
 1. Menggunakan GoCroot (25%)
 2. Menggunakan JSCroot (25%)
-3. Feedback Product Owner (25%)
+3. Feedback Product Owner (5%)
 4. Task Jalan tanpa Bug (25%)
+5. Menggunakan WhatsAuth (5%)
+6. Menggunakan API PetaPedia (5%)
 
 
 
