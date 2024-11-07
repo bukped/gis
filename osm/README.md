@@ -1,5 +1,7 @@
 # OpenStreetMap data
 
+[Penjelasan Youtube](https://youtu.be/NXeURh8p888)
+
 Kita akan coba mengunduh dan mencoba sendiri data OpenStreetMap. Untuk mengunduh data OSM per wilayah kita bisa mengunjungi situs [GeoFabrik](https://download.geofabrik.de/). 
 Jika ingin mengunduh semua data OSM maka kunjungi web [Planet](https://planet.openstreetmap.org/)
 
