@@ -9,3 +9,16 @@ Jika ingin mengunduh semua data OSM maka kunjungi web [Planet](https://planet.op
 3. Filter data ambil saja data nama jalan wilayah Bandung, Cimahi, KBB, Kab. Bandung
 4. Coba buat fungsi nearest jalan di golang dari data jalan
 5. Implementasikan menjadi Endpoint
+
+## Persiapan Basis Data
+1. Unduh [PostgreSQL](https://www.postgresql.org/download/) dan Plugin [PostGIS](https://www.postgresql.org/download/)
+2. Buat Database `osm`, user `osmuser`
+3. Enable plugin `postgis` pada database yang baru dibuat
+4. Opsional enable juga extension `hstore`
+
+```sh
+sudo -u postgres createuser osmuser
+sudo -u postgres createdb --encoding=UTF8 --owner=osmuser osm
+sudo -u postgres psql osm --command='CREATE EXTENSION postgis;'
+sudo -u postgres psql osm --command='CREATE EXTENSION hstore;'
+```
