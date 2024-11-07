@@ -44,5 +44,7 @@ Jika ingin mengunduh semua data OSM maka kunjungi web [Planet](https://planet.op
     ```sh
     osm2pgsql java-nov24.osm.pbf -d osm -H 127.0.0.1 -U osmuser -W
     ```
+    ![image](https://github.com/user-attachments/assets/b451e2a0-d5c6-4545-a139-9f4a87b20a03)  
+
 
 
