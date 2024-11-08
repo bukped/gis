@@ -28,6 +28,7 @@ Parameter Penilaian:
 6. Team Menggunakan API PetaPedia (10%)
 
 Perhitungan (Poin/Milestone)xPresentasi Di atas
+localhost=diskon 50%
 
 ## Milestone
 1. Pertemuan 14 Nov : 120
