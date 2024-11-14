@@ -96,4 +96,24 @@ Assuming you have a specific point in the form of coordinates (latitude and long
 
 ![Query Point Long Lat](https://github.com/user-attachments/assets/c373386f-bba7-4ff3-83e6-d0b2cdf68da5)
 
+## Melakukan Eksport ke Format GeoJson
 
+Kita tinggal melakukan query ini saja
+
+```sql
+SELECT json_agg(
+    json_build_object(
+        'type', 'Feature',
+        'geometry', json_build_object(
+            'type', 'LineString',
+            'coordinates', ST_AsGeoJSON(ST_Transform(way, 4326), 6)::json->'coordinates'
+        ),
+        'properties', json_build_object(
+            'osm_id', osm_id,
+            'name', name,
+            'highway', highway
+        )
+    )
+)
+FROM (SELECT osm_id, name, highway, way FROM planet_osm_roads) AS limited_roads;
+```
