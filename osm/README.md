@@ -117,3 +117,6 @@ SELECT json_agg(
 )
 FROM (SELECT osm_id, name, highway, way FROM planet_osm_roads) AS limited_roads;
 ```
+Tinggal kita save as data ke dalam file baru namafile.json  
+![image](https://github.com/user-attachments/assets/e757e592-433c-49b0-9285-e7de71bfe4d3)  
+
