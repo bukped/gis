@@ -97,7 +97,7 @@ Assuming you have a specific point in the form of coordinates (latitude and long
 ![Query Point Long Lat](https://github.com/user-attachments/assets/c373386f-bba7-4ff3-83e6-d0b2cdf68da5)
 
 ## Melakukan Eksport ke Format GeoJson
-
+[Tutorial Youtube](https://youtu.be/jXqwcmMppjE)
 Kita tinggal melakukan query ini saja
 
 ```sql
