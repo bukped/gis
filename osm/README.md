@@ -121,6 +121,8 @@ Tinggal kita save as data ke dalam file baru namafile.json
 ![image](https://github.com/user-attachments/assets/e757e592-433c-49b0-9285-e7de71bfe4d3)  
 
 ## Kerjakan
-1. Buatlah webservice dari pencarian jalan terdekat dari kordinat yang diinputkan
-2. Frontend cukup menggunakan swagger yang sudah di deploy ke github pages
+1. Buatlah webservice dari pencarian jalan terdekat dari kordinat yang diinputkan pada aplikasi yang dibuat kemaren
+2. Tambahkan swagger yang sudah di deploy ke github pages. [Contoh](https://petapedia.if.co.id/apidocs/)
 3. Gunakan [Geospatial Query Operators](https://www.mongodb.com/docs/manual/reference/operator/query-geospatial/) dari mongoDB
+4. Integrasikan dengan aplikasi yang dikerjakan kemarin meliputi: Pencarian wilayah dan pencarian jalan terdekat
+5. Integrasikan juga dengan [API Peta pedia](https://petapedia.if.co.id/apidocs/)
