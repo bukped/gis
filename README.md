@@ -34,3 +34,13 @@ localhost=diskon 50%
 1. Pertemuan 14 Nov : 120
 
 Agar lebih efisien dibuatkan presentasi tentang kontribusinya terhadap masing masing parameter penilaian.
+
+## Ujian Tengah Semester
+
+1. Semua situs yang dibuat oleh team wajib sudah di promosikan di semua lini sosmed(Status Wa,IG,Tiktok,Youtube,Medium @10 poin) pada akun pribadi maupun akun team (nilai 50)
+2. Masing-masing situs wajib di daftarkan ke [Google Analytics](https://analytics.google.com/) (Nilai 25)
+3. Masing-masing situs wajib di daftarkan ke [Google Search Console](https://search.google.com/) (Nilai 25)
+4. Satu orang dalam team wajib menggiring minimal 10 unik visitor perhari, jadi total unik visitor perhari adalah : jumlah anggota team x 10.
+5. Misal satu team ada 5 orang maka harus ada 50 unik visitor per hari.
+
+Nilai : (Total nilai no 1-3) x (Rata-rata unik visitor per hari dalam seminggu/(10xjumlahangota))
