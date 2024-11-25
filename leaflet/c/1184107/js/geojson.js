@@ -1,4 +1,4 @@
-const map = L.map('map').setView([-6.87360695863978, 107.5759227360176], 23);
+const map = L.map('map').setView([3.594734611258944, 98.6710254771208], 13);
 
 const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
@@ -9,6 +9,6 @@ const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 
 
-L.geoJSON(getGeoJSON("bandung/ryan.json"), {
+L.geoJSON(getGeoJSON("MEDAN/ryan.json"), {
     onEachFeature: onEachFeature
 }).addTo(map);
