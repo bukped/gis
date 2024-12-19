@@ -4,7 +4,7 @@ Pada tahapan setelah UTS ini dikhususkan sudah bisa menjual diri dan mempromosik
 Membuat profile di t.if.co.id diupdate di dalamnya terdapat jasa yang ditawarkan serta target dan realisasi harga per hari.
 
 Syarat untuk maju penilaian presentasi menjadi:
-1. Pengunjung Aplikasi minimal 10 unik user per hari
+1. Pengunjung Aplikasi minimal 10 unik user per anggota kelompok per hari
 2. Dalam waktu per minggu mendapatkan sponsor crowdfunding insent.if.co.id
 
 
