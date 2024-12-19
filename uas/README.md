@@ -9,6 +9,15 @@ Syarat untuk maju penilaian presentasi menjadi:
 
 Mendapatkan sponsor crowdfunding dengan cara menawarkan Jasa IT baik itu aplikasi, konsultasi, pelatihan atau kelas privat.
 
+## Tugas ke 8 : Open Layer
+
+Presentasikan Open Layer yang sudah bisa custom css:
+1. Berada di tengah tengah web
+2. Full screen
+3. Bisa di hide dan open
+4. Bisa input langsung di peta
+5. Bisa memunculkan informasi langsung dari petanya
+
 ## Tugas Ke 9 : Pusat Data Jalan Bandung Raya dan Aplikasi Peta
 Per kelas memiliki 1 endpoint untuk jalan di Bandung Raya(KBB, Kab. Bandung, Cimahi). Dibagi input bersama 1 kelas. 
 1 orang memegang beberapa kecamatn.
