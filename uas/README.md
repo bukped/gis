@@ -8,7 +8,7 @@ Syarat untuk maju penilaian presentasi menjadi:
 2. Dalam waktu per minggu mendapatkan sponsor crowdfunding insent.if.co.id
 
 
-## Tugas Ke 8 : Pusat Data Jalan Bandung Raya dan Aplikasi Peta
+## Tugas Ke 9 : Pusat Data Jalan Bandung Raya dan Aplikasi Peta
 Per kelas memiliki 1 endpoint untuk jalan di Bandung Raya(KBB, Kab. Bandung, Cimahi). Dibagi input bersama 1 kelas. 
 1 orang memegang beberapa kecamatn.
 
