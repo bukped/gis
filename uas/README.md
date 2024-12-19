@@ -7,6 +7,7 @@ Syarat untuk maju penilaian presentasi menjadi:
 1. Pengunjung Aplikasi minimal 10 unik user per anggota kelompok per hari
 2. Dalam waktu per minggu mendapatkan sponsor crowdfunding [insent.if.co.id](https://insent.if.co.id/)
 
+Mendapatkan sponsor crowdfunding dengan cara menawarkan Jasa IT baik itu aplikasi, konsultasi, pelatihan atau kelas privat.
 
 ## Tugas Ke 9 : Pusat Data Jalan Bandung Raya dan Aplikasi Peta
 Per kelas memiliki 1 endpoint untuk jalan di Bandung Raya(KBB, Kab. Bandung, Cimahi). Dibagi input bersama 1 kelas. 
