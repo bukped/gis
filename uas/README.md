@@ -1,4 +1,4 @@
-# Monetisasi Aplikasi
+# Monetisasi Aplikasi Pengembangan Tefa
 
 Pada tahapan setelah UTS ini dikhususkan sudah bisa menjual diri dan mempromosikan aplikasi yang sudah di buat.
 Membuat profile di t.if.co.id diupdate di dalamnya terdapat jasa yang ditawarkan serta target dan realisasi harga per hari.
