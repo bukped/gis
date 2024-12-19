@@ -5,7 +5,7 @@ Membuat profile di t.if.co.id diupdate di dalamnya terdapat jasa yang ditawarkan
 
 Syarat untuk maju penilaian presentasi menjadi:
 1. Pengunjung Aplikasi minimal 10 unik user per anggota kelompok per hari
-2. Dalam waktu per minggu mendapatkan sponsor crowdfunding insent.if.co.id
+2. Dalam waktu per minggu mendapatkan sponsor crowdfunding [insent.if.co.id](https://insent.if.co.id/)
 
 
 ## Tugas Ke 9 : Pusat Data Jalan Bandung Raya dan Aplikasi Peta
