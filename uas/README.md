@@ -20,7 +20,9 @@ Presentasikan Open Layer yang sudah bisa custom css:
 
 ## Tugas Ke 9 : Pusat Data Jalan Bandung Raya dan Aplikasi Peta
 Per kelas memiliki 1 endpoint untuk jalan di Bandung Raya(KBB, Kab. Bandung, Cimahi). Dibagi input bersama 1 kelas. 
-1 orang memegang beberapa kecamatn.
+1 orang memegang beberapa kecamatan.
+
+Laporkan ke repo : https://github.com/Team-Informatika/rekap/blob/main/GIS/9A.md
 
 1. Melakukan input data jalan per kecamatan
 2. Integrasikan dengan input data pendaftaran aplikasi
