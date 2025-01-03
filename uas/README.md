@@ -28,3 +28,16 @@ Laporkan ke repo : https://github.com/Team-Informatika/rekap/blob/main/GIS/9A.md
 2. Integrasikan dengan input data pendaftaran aplikasi
 3. Terdapat Peta Interaktif Open Layer di Aplikasi
 
+## Tugas Ke 10 : Aplikasi Pick Me Up dan Where Am I
+Masing-masing diminta untuk membuat aplikasi lokasi penjemputan atau posisi saat ini. Bisa digabung dengan fitur aplikasi yang ada
+
+Laporkan ke repo : https://github.com/Team-Informatika/rekap/blob/main/GIS/ dengan nama file 10A.md untuk kelas A atau 10b.md untuk kelas B
+
+Cekin dengan menggunakan coin: Documentchain
+
+1. Gunakan CSS mobile seperti crootss.if.co.id
+2. Menggunakan fitur ambil lokasi browser Handphone
+3. Dari lokasi user tersebut munculkan nama daerah dan nama jalannya
+4. Aplikasi harus berbeda tidak boleh sama, boleh develop masing-masing dengna syarat ada usernya
+
+
