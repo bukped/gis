@@ -24,6 +24,8 @@ Per kelas memiliki 1 endpoint untuk jalan di Bandung Raya(KBB, Kab. Bandung, Cim
 
 Laporkan ke repo : https://github.com/Team-Informatika/rekap/blob/main/GIS/9A.md
 
+Cekin dengan menggunakan coin: Sugarchain
+
 1. Melakukan input data jalan per kecamatan
 2. Integrasikan dengan input data pendaftaran aplikasi
 3. Terdapat Peta Interaktif Open Layer di Aplikasi
