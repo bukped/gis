@@ -42,4 +42,14 @@ Cekin dengan menggunakan coin: Documentchain
 3. Dari lokasi user tersebut munculkan nama daerah dan nama jalannya
 4. Aplikasi harus berbeda tidak boleh sama, boleh develop masing-masing dengna syarat ada usernya
 
+## Tugas Ke 11 : Popup Open Layer
+Masing-masing diminta untuk membuat aplikasi gis yang ketika di klik di peta muncul pop up informasi di lokasi tersebut. Bisa digabung dengan fitur aplikasi yang ada
 
+Laporkan ke repo : https://github.com/Team-Informatika/rekap/blob/main/GIS/ dengan nama file 11A.md untuk kelas A atau 11b.md untuk kelas B
+
+Cekin dengan menggunakan coin: Documentchain
+
+1. Gunakan CSS mobile seperti crootss.if.co.id
+2. Menggunakan fitur ambil lokasi browser Handphone untuk menentukan lokasi default ketika pertama buka peta
+3. Dari peta yang di klik munculkan informasi mengenaik tempat tersebut
+4. Aplikasi harus berbeda tidak boleh sama, boleh develop masing-masing dengna syarat ada usernya
