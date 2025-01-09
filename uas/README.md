@@ -47,7 +47,7 @@ Masing-masing diminta untuk membuat aplikasi gis yang ketika di klik di peta mun
 
 Laporkan ke repo : https://github.com/Team-Informatika/rekap/blob/main/GIS/ dengan nama file 11A.md untuk kelas A atau 11b.md untuk kelas B
 
-Cekin dengan menggunakan coin: Documentchain
+Cekin dengan menggunakan coin: PlexHive
 
 1. Gunakan CSS mobile seperti crootss.if.co.id
 2. Menggunakan fitur ambil lokasi browser Handphone untuk menentukan lokasi default ketika pertama buka peta
